@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the snapshot 1`] = `
+<div
+  className="inews__post inews__post-podium show-author"
+  data-post-id={1}
+  key="1"
+>
+  <PostItemBadge
+    post={
+      Object {
+        "breadcrumbs": Array [
+          Object {
+            "name": "News",
+          },
+        ],
+        "excerpt": Object {
+          "rendered": "excerpt",
+        },
+        "id": 1,
+        "link": "https://inews-article.com/test-article",
+        "title": Object {
+          "rendered": "title",
+        },
+      }
+    }
+    showAuthor={true}
+  />
+  <div
+    className="inews__post-podium__content"
+  >
+    <PostItemMedia
+      className="inews__post-podium__media"
+      height={155}
+      imageSize="small-1:1"
+      layout="fixed"
+      linkToAuthor={false}
+      placeholder="/static/images/placeholder/placeholder-84x84.png"
+      post={
+        Object {
+          "breadcrumbs": Array [
+            Object {
+              "name": "News",
+            },
+          ],
+          "excerpt": Object {
+            "rendered": "excerpt",
+          },
+          "id": 1,
+          "link": "https://inews-article.com/test-article",
+          "title": Object {
+            "rendered": "title",
+          },
+        }
+      }
+      postItemType=""
+      showAuthor={true}
+      width={155}
+    />
+    <div
+      className="inews__post-podium__content-headline"
+    >
+      <PostItemLabel
+        post={
+          Object {
+            "breadcrumbs": Array [
+              Object {
+                "name": "News",
+              },
+            ],
+            "excerpt": Object {
+              "rendered": "excerpt",
+            },
+            "id": 1,
+            "link": "https://inews-article.com/test-article",
+            "title": Object {
+              "rendered": "title",
+            },
+          }
+        }
+      />
+      <PostItemTitle
+        post={
+          Object {
+            "breadcrumbs": Array [
+              Object {
+                "name": "News",
+              },
+            ],
+            "excerpt": Object {
+              "rendered": "excerpt",
+            },
+            "id": 1,
+            "link": "https://inews-article.com/test-article",
+            "title": Object {
+              "rendered": "title",
+            },
+          }
+        }
+      />
+    </div>
+  </div>
+  <p
+    className="inews__post-podium__excerpt"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "excerpt",
+      }
+    }
+  />
+</div>
+`;

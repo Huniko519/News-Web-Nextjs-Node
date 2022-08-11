@@ -1,0 +1,66 @@
+@import '../partials/_colors';
+@import '../partials/_fonts';
+
+.inews__back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: calc(90px + 1rem);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: $white;
+  background: $red;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.16);
+  visibility: hidden;
+  opacity: 0;
+
+  > span {
+    display: none;
+  }
+
+  &_target {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+  }
+
+  &_observer_top {
+    position: absolute;
+    top: 200vh;
+    height: 100%;
+  }
+}
+
+@media (--tablet-and-up) {
+  .inews__back-to-top {
+    width: 60px;
+    height: 60px;
+
+    > span {
+      display: block;
+      margin-top: 5px;
+      font-size: 0.7rem;
+      font-family: $serif-headline;
+      line-height: 0.8rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media (--desktop-and-up) {
+  .dirty-amp .inews__back-to-top {
+    bottom: 1rem;
+  }
+}
+
+@media (--desktopXL-only) {
+  .dirty-amp .inews__back-to-top {
+    right: calc((100vw - #{$main-content-width-desktop-xl}) / 2);
+  }
+}

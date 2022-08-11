@@ -1,0 +1,17 @@
+@import '../partials/_colors';
+@import '../partials/_media_queries';
+@import '../partials/_fonts';
+
+.inews__sitemap-entry a {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 2px solid $red;
+
+  &:hover {
+    color: $white;
+    background-color: $red;
+    transition: background-color 200ms linear;
+  }
+}

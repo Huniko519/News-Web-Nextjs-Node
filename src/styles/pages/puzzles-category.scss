@@ -1,0 +1,110 @@
+/* stylelint-disable max-nesting-depth */
+/* stylelint-disable selector-max-compound-selectors */
+@import '../partials/dimensions';
+@import '../partials/media_queries';
+@import '../../../src/styles/partials/colors';
+
+.puzzle-wrapper {
+  .puzzle-hero {
+    .puzzle-container-number-puzzles,
+    .puzzle-container-word-puzzles {
+      @media (--desktop-and-up) {
+        .puzzle-item.puzzle-item--featured {
+          grid-row: 1 / span 2;
+        }
+
+        div:nth-child(2),
+        div:nth-child(3) {
+          grid-column: 3 / span 3;
+
+          .flex--col-2 {
+            gap: 1rem;
+
+            img {
+              max-width: 11rem;
+            }
+          }
+        }
+      }
+    }
+
+    .puzzle-item {
+      &--featured-single.puzzle-item {
+        @media (--tablet-and-up) {
+          grid-column: 1 / span 4;
+        }
+      }
+
+      &--featured.puzzle-item-idoku {
+        background-color: $red;
+
+        .puzzle-btn {
+          color: $red;
+        }
+      }
+    }
+
+    .puzzle-container-number-puzzles {
+      .puzzle-item--featured.puzzle-item {
+        background-color: $orange;
+
+        .puzzle-btn {
+          color: $orange;
+        }
+      }
+    }
+
+    .puzzle-container-word-puzzles {
+      .puzzle-item--featured.puzzle-item {
+        background-color: $dark-blue;
+
+        .puzzle-btn {
+          color: $dark-blue;
+        }
+      }
+    }
+
+    .puzzle-container-crosswords {
+      .puzzle-item--featured.puzzle-item {
+        background-color: $sky-blue;
+
+        .puzzle-btn {
+          color: $sky-blue;
+        }
+      }
+    }
+  }
+}
+
+.inews__archive__title {
+  color: var(--inews-color-primary);
+
+  h2 {
+    width: 100vw;
+    margin-left: $full-width-offset-from-main-mobile;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    color: var(--inews-color-secondary);
+    font-size: 1.2rem;
+    border-color: var(--inews-color-secondary);
+    border-bottom: 10px solid;
+
+    @media (--tablet-only) {
+      padding-left: 1rem;
+    }
+
+    @media (--desktop-and-up) {
+      margin-bottom: 1rem;
+      padding-left: 0;
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: 1000px) {
+      margin-left: $full-width-offset-from-main-desktop;
+
+      span {
+        margin-left: $full-width-inset-to-main-desktop;
+      }
+    }
+  }
+}

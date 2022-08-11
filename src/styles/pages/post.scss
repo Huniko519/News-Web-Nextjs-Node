@@ -1,0 +1,678 @@
+@import '../partials/_colors';
+@import '../partials/_dimensions';
+@import '../partials/_media_queries';
+@import '../partials/_fonts';
+@import '../partials/_moreFrom';
+@import '../partials/post-layout/post-items/post-items';
+
+/* stylelint-disable-next-line selector-no-qualifying-type */
+body.is-post {
+  padding-top: calc(
+    #{$sticky-archive-title-height}+#{$sticky-header-height-mobile} + 1rem
+  );
+
+  @media (--tablet-and-up) {
+    padding-top: calc(
+      #{$sticky-archive-title-height}+#{$sticky-header-height-tablet}+ 1rem
+    );
+  }
+
+  @media (--desktop-and-up) {
+    padding-top: calc(
+      #{$sticky-archive-title-height}+#{$sticky-archive-title-height}+#{$sticky-header-height-desktop}+1rem
+    );
+  }
+}
+
+.inews__main__primary__wrapper {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+
+.inews__main__primary {
+  position: relative;
+  padding: 0.5rem 1.5rem 1rem;
+  overflow: hidden;
+
+  @media (--tablet-and-up) {
+    padding: 0.5rem 1rem 1rem;
+  }
+
+  @media (--desktop-and-up) {
+    flex: 0 0 auto;
+    flex-basis: 66.66666667%;
+    box-sizing: border-box;
+  }
+
+  .article-content {
+    @include clearfix;
+    font-family: $serif-copy;
+
+    // Cropping and hiding post for users specified in a composer logic on Piano (see PostPianoLockContainer.js)
+    &-cropped {
+      max-height: 190px;
+      overflow-y: hidden;
+    }
+
+    a {
+      color: $red;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        box-shadow: 0 -1px 0 0 $white inset, 0 -2px 0 0 $red inset;
+        transition: all 0.2s ease-out;
+      }
+    }
+
+    // Add the i logo to the very last paragraph in the article body
+    > p:last-of-type {
+      &::after {
+        margin-left: 0.25rem;
+        vertical-align: middle;
+        content: url('/static/images/logo/i-post-logo.svg');
+      }
+    }
+
+    ul {
+      padding-bottom: 0.8rem;
+      padding-left: 0;
+      line-height: 1.3rem;
+      list-style: none;
+      border-bottom: 1px solid $grey-3;
+
+      li {
+        margin-bottom: 10px;
+
+        &::before {
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          margin-right: 1rem;
+          background-color: $red;
+          content: '';
+        }
+      }
+    }
+
+    .inews__mpu {
+      display: inline;
+    }
+
+    //clearing embeds to prevent distortion when next to a floated ad.
+    amp-twitter,
+    amp-facebook,
+    amp-instagram,
+    amp-iframe,
+    figure {
+      clear: both;
+    }
+  }
+
+  .inews__email-signup {
+    h3 span {
+      display: inline;
+    }
+
+    @media (--mobile-and-below) {
+      float: none;
+      width: initial;
+    }
+  }
+
+  .inews__advert {
+    &:not(.teads) {
+      float: right;
+      margin-left: 20px;
+
+      //@todo: Figure out how to add a label to AMP Ads nicely
+      > div {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        padding-bottom: 1rem;
+
+        &::before {
+          position: absolute;
+          top: 0;
+          box-sizing: border-box;
+          width: 300px;
+          padding-left: 10px;
+          color: #9b9b9b;
+          font-size: 12px;
+          line-height: 25px;
+          background-color: #ececec;
+          content: 'Advertisement';
+        }
+      }
+
+      @media (--mobile-and-below) {
+        float: none;
+        margin: auto;
+      }
+    }
+  }
+}
+
+.headline {
+  margin: 1rem 0 0;
+  font-weight: 900;
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+}
+
+.excerpt {
+  display: inline-block;
+  margin: 1rem 0;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.inews__post-byline {
+  margin: 0.5rem 0 1rem;
+  background-color: var(--inews-color-secondary);
+
+  &__avatar {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.inews__post-byline__author-link {
+  padding: 0.5rem;
+  font-weight: 700;
+  font-family: $serif-headline;
+}
+
+.inews__post-byline__author-job_title {
+  margin-top: 0.5rem;
+  color: $grey-2;
+  font-weight: 400;
+  font-size: 0.8rem;
+  font-family: $sans;
+}
+
+.inews__post-share {
+  amp-social-share {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: 0 2rem 0 0;
+    background-color: $white;
+    border-radius: 3px;
+  }
+
+  .amp-social-share-email {
+    background-image: url('/static/images/social-share/email.svg');
+    background-size: 170%;
+  }
+
+  .amp-social-share-twitter {
+    background-image: url('/static/images/social-share/twitter.svg');
+    background-size: 160%;
+  }
+
+  .amp-social-share-facebook {
+    background-color: $grey-2;
+  }
+
+  .amp-social-share-whatsapp {
+    background-color: $white;
+    background-image: url('/static/images/social-share/whatsapp.svg');
+    background-size: 110%;
+  }
+}
+
+.inews__post-date {
+  margin-bottom: 1rem;
+  color: $grey-2;
+  font-size: 0.8rem;
+}
+
+.inews__post__moddate {
+  margin-left: 0.5rem;
+}
+
+.inews__disclaimer {
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.2rem;
+}
+
+.inews__post-byline__sponsored {
+  &-logo {
+    display: block;
+
+    amp-img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      max-height: 120px;
+    }
+  }
+}
+
+.inews__topic-list {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid $grey-2;
+  border-bottom: 1px solid $grey-2;
+
+  h4 {
+    margin: 0 0 0.5rem;
+    color: $grey-2;
+    font-weight: 400;
+    font-family: $serif-headline;
+  }
+
+  li {
+    display: inline-block;
+    color: $grey-2;
+
+    &::after {
+      padding-right: 0.25rem;
+      content: '/';
+    }
+
+    &:last-child {
+      &::after {
+        content: '';
+      }
+    }
+
+    a {
+      padding: 0 0.25rem 0 0;
+      color: $red;
+      font-weight: 700;
+      font-family: $serif-headline;
+    }
+  }
+}
+
+figure {
+  figcaption {
+    padding: 0.4rem 0;
+    font-size: 0.8rem;
+    font-family: $sans;
+  }
+}
+
+.featured-media {
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+
+  > .featured-image,
+  > .featured-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+.featured-image {
+  figcaption {
+    padding: 0.4rem 0.6rem 0.4rem 0;
+  }
+}
+
+// This is just a hack for responsive 16:9 video for the DailyMotion player on web (not AMP)
+.dailymotion-wrapper {
+  position: relative;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  color: var(--inews-color-primary);
+  font-size: 1.375rem;
+  border-left: 0;
+  /* stylelint-disable-next-line selector-no-qualifying-type */
+  &.qa {
+    display: block;
+    clear: both;
+    padding: 0.25rem 1rem;
+    color: $black;
+    font-size: 1rem;
+    background: $grey-3;
+    border-left: 0;
+  }
+}
+
+.inews__shortcode-readmore {
+  clear: both;
+  min-height: 84px;
+  margin: 1rem 0;
+  background: $red;
+
+  .inews__shortcode-readmore__text a {
+    display: block;
+    color: $white;
+    line-height: 1.2rem;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
+
+.inews__shortcode-readmore__image {
+  float: left;
+  width: 84px;
+  margin-right: 0.5rem;
+  background: $white;
+}
+
+.inews__shortcode-readmore__text {
+  h4 {
+    margin: 0;
+    padding-top: 0.4rem;
+    color: $white;
+  }
+
+  p {
+    margin: 0;
+    padding: 0.4rem 0 0.2rem;
+    color: $white;
+  }
+}
+
+.inews__shortcode-readmoreauto {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border-top: 1px solid $grey-5;
+  border-bottom: 1px solid $grey-5;
+
+  h4 {
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+  }
+
+  &_post {
+    display: flex;
+    margin: 0.75rem 1.5rem;
+    color: $black;
+
+    &:first-of-type {
+      margin-top: 0.5rem;
+    }
+
+    &_image {
+      amp-img {
+        width: 87px;
+        height: auto;
+      }
+    }
+
+    &_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0 0 0 14px;
+
+      &_title {
+        display: block;
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-family: $serif-headline;
+        line-height: 1.3rem;
+      }
+
+      &_date {
+        margin: 0;
+        color: rgb(140, 140, 140);
+        font-size: 11px;
+        line-height: 11px;
+      }
+    }
+  }
+}
+
+/* stylelint-disable selector-no-qualifying-type */
+figure {
+  &.wp-caption,
+  &.wp-block-image {
+    clear: both;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/* stylelint-enable selector-no-qualifying-type */
+
+.wp-block-columns {
+  display: flex;
+}
+
+.inews__post__category-banner {
+  position: static;
+  top: 60px;
+  left: 0;
+  z-index: 999;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  color: var(--inews-color-primary);
+  font-weight: 900;
+  font-size: 1.5rem;
+  font-family: $serif-headline;
+  background-color: $white;
+  border-bottom: 10px solid var(--inews-color-primary);
+
+  @media (--tablet-and-up) {
+    top: 150px;
+    width: auto;
+    margin: 0 -0.5rem;
+  }
+
+  @media (--desktop-and-up) {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    height: $sticky-archive-title-height;
+  }
+
+  &__parent-mobile {
+    display: none;
+
+    @media (--tablet-and-below) {
+      display: inline;
+    }
+  }
+
+  &__expend-mobile {
+    position: absolute;
+    display: none;
+
+    a {
+      color: $grey-7;
+    }
+
+    @media (--tablet-and-below) {
+      display: block;
+    }
+  }
+
+  @media (--tablet-and-below) {
+    &.collapsed {
+      max-height: 2.9rem;
+      padding-right: 2rem;
+
+      .inews__post__category-banner__expend-mobile {
+        top: 1rem;
+        right: 0.625rem;
+      }
+    }
+
+    &.expended {
+      .inews__post__category-banner__expend-mobile {
+        right: 0.625rem;
+        bottom: 1rem;
+      }
+    }
+  }
+}
+
+.i__post__cat-ban__in {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+
+  @media (--desktop-and-up) {
+    max-width: $main-content-width-desktop;
+  }
+}
+
+.inews__post__category-parent-item {
+  margin: 0 10px;
+  @media (--mobileL-and-up) {
+    margin: 0 1rem;
+  }
+}
+
+.inews__post__category-item {
+  margin: 0 0.625rem;
+  padding: 7px 0;
+  color: $grey-2;
+  font-weight: normal;
+  border-bottom: solid 1px transparent;
+  @media (--mobileL-and-up) {
+    margin: 0 1rem 0 0;
+  }
+}
+
+.inews__post__category__grand-parent-item {
+  color: var(--inews-color-primary);
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: $serif-headline;
+}
+
+.inews__post__category-item:hover {
+  border-bottom-color: $grey-2;
+}
+
+@media (--tablet-and-below) {
+  .inews__main__primary {
+    max-width: 100%;
+  }
+}
+
+@media (--mobile-only) {
+  .inews__leaderboard {
+    position: sticky;
+    top: 50px;
+    z-index: 100;
+    margin-top: 0;
+  }
+
+  .inews__advert[data-pos='sticky_banner_top'] {
+    position: relative;
+    top: initial;
+  }
+
+  .headline {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .excerpt {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .inews__post-byline__author-link {
+    font-size: 0.8rem;
+  }
+
+  .inews__post-byline__avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  .inews__post__moddate {
+    margin-left: 5px;
+  }
+
+  .inews__topic-list {
+    li {
+      a {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .inews__main > .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .inews__shortcode-readmore {
+    margin: 1rem -1rem;
+
+    .inews__shortcode-readmore__text {
+      h4 {
+        font-size: 0.8rem;
+      }
+
+      p {
+        a {
+          font-size: 0.9rem;
+          line-height: 1.1rem;
+        }
+      }
+    }
+  }
+}
+
+// Push the DailyMotion mobile player under the top nav
+#dailymotion-pip-small-viewport {
+  /* stylelint-disable-next-line declaration-no-important */
+  top: 116px !important;
+  /* stylelint-disable-next-line declaration-no-important */
+  z-index: 2 !important;
+}
+
+/* 
+Container for loading a Piano template in order to crop and hide posts (see PostPianoLockContainer.js)
+*/
+.piano-lock-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+
+  &--show::before {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 30%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    content: '';
+  }
+}

@@ -1,0 +1,145 @@
+.inews__post-banner {
+  position: relative;
+  flex-direction: column;
+
+  @media (--desktop-and-up) {
+    height: 360px;
+    overflow: hidden;
+  }
+
+  &__content {
+    padding: 0 1rem;
+
+    @media (--tablet-only) {
+      padding: 0;
+    }
+
+    @media (--desktop-and-up) {
+      position: absolute;
+      z-index: 10;
+      width: 70%;
+      padding: 0.5rem 1rem;
+      color: $white;
+    }
+
+    .inews__post__badge {
+      display: none;
+      text-indent: 0;
+      border-bottom: 0;
+
+      @media (--desktop-and-up) {
+        display: block;
+      }
+    }
+
+    h2 {
+      margin: 0 0 1rem;
+      color: $black;
+      font-weight: 900;
+      font-size: 1.5rem;
+      line-height: 1.2em;
+
+      @media (--desktop-and-up) {
+        width: 90%;
+        margin: 0;
+        color: $white;
+        font-size: 3rem;
+
+        a {
+          color: $white;
+        }
+      }
+    }
+
+    p {
+      display: none;
+      line-height: 1.4em;
+
+      @media (--desktop-and-up) {
+        display: inherit;
+        width: 60%;
+      }
+
+      a {
+        color: $white;
+      }
+    }
+
+    .inews__post__label {
+      margin-top: 0.5rem;
+    }
+  }
+
+  &__color-white {
+    @media (--desktop-and-up) {
+      color: $white;
+    }
+
+    h2 {
+      color: $black;
+
+      @media (--desktop-and-up) {
+        color: $white;
+
+        a {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  &__color-black {
+    @media (--desktop-and-up) {
+      color: $black;
+    }
+
+    h2 {
+      color: $black;
+
+      @media (--desktop-and-up) {
+        color: $black;
+
+        a {
+          color: $black;
+        }
+      }
+    }
+
+    p {
+      color: $black;
+
+      a {
+        color: $black;
+      }
+    }
+  }
+
+  &__media {
+    position: relative;
+
+    &--wide-banner {
+      display: none;
+    }
+
+    &--1-1 {
+      display: block;
+    }
+
+    @media (--desktop-and-up) {
+      &--wide-banner {
+        display: block;
+      }
+
+      &--1-1 {
+        display: none;
+      }
+    }
+  }
+
+  .inews__post__video-icon {
+    bottom: 18px;
+    left: 18px;
+    width: 50px;
+    height: 50px;
+  }
+}

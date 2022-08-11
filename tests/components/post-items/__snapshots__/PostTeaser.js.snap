@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the snapshot 1`] = `
+<div
+  className="inews__post inews__post-teaser  "
+  data-post-id={1}
+  key="1"
+>
+  <PostItemMedia
+    className="inews__post-teaser__media"
+    height={9}
+    imageSize="medium-16:9"
+    layout="responsive"
+    linkToAuthor={false}
+    placeholder="/static/images/placeholder/placeholder-640x360.png"
+    post={
+      Object {
+        "breadcrumbs": Array [
+          Object {
+            "name": "News",
+          },
+        ],
+        "id": 1,
+        "link": "https://inews-article.com/test-article",
+        "title": Object {
+          "rendered": "title",
+        },
+      }
+    }
+    postItemType="teaser"
+    showAuthor={false}
+    width={16}
+  />
+  <div
+    className="inews__post-teaser__content"
+  >
+    <div>
+      <PostItemBadge
+        post={
+          Object {
+            "breadcrumbs": Array [
+              Object {
+                "name": "News",
+              },
+            ],
+            "id": 1,
+            "link": "https://inews-article.com/test-article",
+            "title": Object {
+              "rendered": "title",
+            },
+          }
+        }
+        showAuthor={false}
+      />
+      <span
+        className="inews__post-teaser__content__headline"
+      >
+        <PostItemLabel
+          post={
+            Object {
+              "breadcrumbs": Array [
+                Object {
+                  "name": "News",
+                },
+              ],
+              "id": 1,
+              "link": "https://inews-article.com/test-article",
+              "title": Object {
+                "rendered": "title",
+              },
+            }
+          }
+        />
+        <PostItemTitle
+          post={
+            Object {
+              "breadcrumbs": Array [
+                Object {
+                  "name": "News",
+                },
+              ],
+              "id": 1,
+              "link": "https://inews-article.com/test-article",
+              "title": Object {
+                "rendered": "title",
+              },
+            }
+          }
+        />
+      </span>
+    </div>
+    <PostItemPubDate
+      post={
+        Object {
+          "breadcrumbs": Array [
+            Object {
+              "name": "News",
+            },
+          ],
+          "id": 1,
+          "link": "https://inews-article.com/test-article",
+          "title": Object {
+            "rendered": "title",
+          },
+        }
+      }
+      showPubDate={false}
+    />
+  </div>
+</div>
+`;

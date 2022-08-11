@@ -1,0 +1,145 @@
+.inews__post {
+  position: relative;
+  display: flex;
+  word-break: break-word;
+  opacity: 1;
+  transition: opacity 0.3s;
+
+  h2 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  /*
+   *  This class is applied to post-items by the JS viewed post tracking code
+   *  defined in components/post-items/viewed.js
+   */
+  &-viewed {
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+      transition: none;
+    }
+  }
+
+  &__badge {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    font-family: $serif-headline;
+    text-transform: uppercase;
+    text-indent: 1rem;
+    word-break: break-word;
+    border-bottom: 2px solid var(--inews-color-primary, #{$red});
+    @media (--tablet-and-up) {
+      text-indent: 0.5rem;
+    }
+
+    > a,
+    > span {
+      display: block;
+      margin: 0.4rem 0 0.3rem;
+    }
+  }
+
+  &.show-author {
+    [class$='__media'] {
+      display: flex;
+      justify-content: center;
+      padding: 0.6rem;
+      filter: grayscale(100%);
+
+      amp-img {
+        max-width: 135px;
+        max-height: 135px;
+        clip-path: circle(50% at center);
+      }
+
+      .inews__post__video-icon {
+        display: none;
+      }
+    }
+  }
+
+  &__category a {
+    color: var(--inews-color-primary, #{$red});
+  }
+
+  &__video-icon {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background: $red;
+    border: 1px solid $red;
+    border-radius: 50%;
+    opacity: 0.75;
+
+    svg {
+      width: 100%;
+      fill: $white;
+      stroke: transparent;
+    }
+  }
+
+  &__label {
+    display: inline-block;
+    margin-right: 0.25rem;
+    margin-bottom: 2px;
+    padding: 0.2rem 0.3rem 0.15rem 0.4rem;
+    color: $white;
+    font-weight: 900;
+    font-size: 0.5rem;
+    font-family: $sans;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: $black;
+  }
+
+  &__review-stars {
+    &__1::after {
+      color: $gold;
+      content: ' {{starSymbol}}';
+    }
+
+    &__2::after {
+      color: $gold;
+      content: ' {{starSymbol}}{{starSymbol}}';
+    }
+
+    &__3::after {
+      color: $gold;
+      content: ' {{starSymbol}}{{starSymbol}}{{starSymbol}}';
+    }
+
+    &__4::after {
+      color: $gold;
+      content: ' {{starSymbol}}{{starSymbol}}{{starSymbol}}{{starSymbol}}';
+    }
+
+    &__5::after {
+      color: $gold;
+      content: ' {{starSymbol}}{{starSymbol}}{{starSymbol}}{{starSymbol}}{{starSymbol}}';
+    }
+  }
+}
+
+.inews__post__mpu {
+  justify-content: center;
+
+  .inews__mpu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
+}
+
+@import 'post-item-teaser';
+@import 'post-item-puff';

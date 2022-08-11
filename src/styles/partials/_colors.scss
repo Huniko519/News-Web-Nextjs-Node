@@ -1,0 +1,43 @@
+$black: #000;
+$grey-1: #edf0f0;
+$grey-2: #637581;
+$grey-3: #f0f0f0;
+$grey-4: #646464;
+$grey-5: #d6e2e2;
+$grey-6: #a5a5a5;
+$grey-7: #50626e;
+$grey-8: rgba(0, 0, 0, 0.3);
+$sky-blue: #46a3e0;
+$dark-blue: #1b50b2;
+$red: #e33a11;
+$green: #4db047;
+$orange: #eda400;
+$white: #fff;
+$gold: #daa520;
+$mint: #2dc1aa;
+$cream: #f8f3ef;
+$taupe: #f7f3ef;
+
+// Social
+$twitter: #1da1f2;
+$facebook: #4267b2;
+$whatsapp: #25d366;
+
+$box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+
+// Gutenberg colour classes
+.has-inews-red-color {
+  color: $red;
+}
+
+.has-inews-green-color {
+  color: $green;
+}
+
+.has-inews-gold-color {
+  color: $gold;
+}
+
+.has-inews-grey-color {
+  color: $grey-6;
+}

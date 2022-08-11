@@ -1,0 +1,563 @@
+.inews__header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  z-index: 9999;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  height: $sticky-header-height-mobile;
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+  box-shadow: 0 1px 3px #00000029;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+}
+
+.inews__header__logo {
+  svg {
+    width: 10px;
+    height: 30px;
+  }
+}
+
+.inews__hamburger-open,
+.inews__hamburger-close {
+  padding: 0;
+  color: $grey-2;
+  font-weight: 900;
+  font-size: 25px;
+  background: none;
+  border: 0;
+  outline: none;
+}
+
+.inews__header-menu {
+  display: none;
+}
+
+.inews__header__search {
+  display: none;
+
+  &__button {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: none;
+    border: 0;
+    outline: none;
+
+    svg {
+      width: 22px;
+      height: 22px;
+      padding-top: 3px;
+      fill: $grey-2;
+    }
+  }
+}
+
+.i__header__account {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  margin-top: 0.25rem;
+}
+
+.i__header__account_register {
+  position: relative;
+  height: 1.25rem;
+  height: 1.25rem;
+  padding: 0.25rem 1.75rem 0.25rem 0.75rem;
+  color: $white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  background-color: $red;
+  border-radius: 1rem;
+  visibility: collapse;
+
+  &:hover {
+    background-color: $black;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    vertical-align: bottom;
+    background-color: $white;
+    border-radius: 50%;
+
+    svg {
+      display: block;
+      width: 0.75rem;
+      height: 0.75rem;
+      margin-top: 0.25rem;
+      margin-left: 0.2rem;
+      fill: $red;
+    }
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
+
+.i__header__account_login {
+  display: none;
+  background-color: $grey-2;
+
+  .arrow {
+    svg {
+      polygon {
+        fill: $grey-2;
+      }
+    }
+  }
+
+  &:hover {
+    background-color: $black;
+
+    .arrow {
+      right: 0.125rem;
+
+      svg {
+        polygon {
+          fill: $red;
+        }
+      }
+    }
+  }
+}
+
+.i__header__account_myaccount {
+  margin-top: -2px;
+  margin-right: 5px;
+  visibility: collapse;
+
+  span {
+    display: none;
+  }
+
+  .i__header__account_myaccount_icon {
+    display: none;
+    height: 1.5rem;
+    margin-top: 5px;
+
+    path,
+    polygon {
+      fill: $red;
+    }
+
+    &:hover {
+      path,
+      polygon {
+        fill: $grey-2;
+      }
+    }
+  }
+}
+
+.inews__header__logo {
+  margin-left: -7rem;
+}
+
+.subscribed {
+  .i__header__account_myaccount {
+    visibility: visible;
+
+    .i__header__account_myaccount_icon {
+      display: inherit;
+    }
+  }
+}
+
+.registered {
+  .i__header__account_myaccount {
+    visibility: visible;
+  }
+
+  .i__header__account_register {
+    visibility: visible;
+  }
+}
+
+.anonymous {
+  .i__header__account_myaccount {
+    visibility: visible;
+  }
+
+  .i__header__account_register {
+    visibility: visible;
+  }
+}
+
+@media (--tablet-and-up) {
+  .inews__header {
+    height: $sticky-header-height-tablet;
+
+    &__inner {
+      flex-direction: normal;
+    }
+  }
+
+  .inews__header__hamburger__button {
+    order: 3;
+    margin-top: -4px;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .inews__header__search {
+    display: none;
+  }
+}
+
+.i__header__account_login {
+  position: relative;
+  display: none;
+  height: 1.25rem;
+  padding: 0.25rem 1.75rem 0.25rem 0.75rem;
+  color: $white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  vertical-align: middle;
+  background-color: $grey-2;
+  border-radius: 1rem;
+
+  &:hover {
+    background-color: $black;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    vertical-align: bottom;
+    background-color: $white;
+    border-radius: 50%;
+
+    svg {
+      display: block;
+      width: 0.75rem;
+      height: 0.75rem;
+      margin-top: 0.25rem;
+      margin-left: 0.2rem;
+      fill: $red;
+    }
+  }
+}
+
+@media (--desktop-and-up) {
+  .inews__header__inner {
+    padding: 0.5rem 10px;
+  }
+
+  .inews__header__logo {
+    margin: 0;
+    padding: 0 1.5rem;
+  }
+
+  .inews__header__search {
+    display: block;
+    order: 3;
+    margin-left: 1rem;
+
+    &__button {
+      position: relative;
+      padding: 0.25rem;
+      vertical-align: super;
+      background: $grey-2;
+      border-radius: 0.5rem;
+
+      svg {
+        vertical-align: text-bottom;
+        fill: $white;
+      }
+
+      &:hover {
+        background: $red;
+      }
+    }
+
+    .inews__header__search__input {
+      height: 25px;
+      margin: 0;
+      margin-left: -0.5rem;
+      text-indent: 1rem;
+      vertical-align: super;
+      border: 1px solid $grey-2;
+      border-radius: 0 0.5rem 0.5rem 0;
+    }
+  }
+
+  .i__header__account {
+    order: 4;
+    width: 240px;
+    margin-top: 0;
+    margin-left: auto;
+    padding-right: 1.5rem;
+  }
+
+  .i__header__account_myaccount {
+    order: 1;
+    margin-left: 0.5rem;
+  }
+
+  .i__header__account_login {
+    display: table-cell;
+  }
+
+  .i__header__account_register {
+    .desktop-only {
+      display: inline-block;
+    }
+
+    &:hover {
+      .arrow {
+        right: 0.125rem;
+      }
+    }
+  }
+
+  .subscribed {
+    .i__header__account_login {
+      display: none;
+    }
+  }
+
+  .registered {
+    .i__header__account_login {
+      display: none;
+    }
+
+    .i__header__account_myaccount_icon {
+      display: inherit;
+    }
+  }
+
+  .anonymous {
+    .i__header__account_myaccount {
+      visibility: visible;
+    }
+
+    .i__header__account_register {
+      visibility: visible;
+    }
+  }
+
+  .inews__header-menu {
+    display: block;
+    order: 2;
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      display: flex;
+      height: 100px;
+      font-size: 1.1rem;
+      font-family: $serif-headline;
+
+      /* stylelint-disable selector-no-qualifying-type */
+      &.inews-menu-item-current,
+      &.inews-menu-item-current-ancestor {
+        .inews__header-menu__top-level-link {
+          color: var(--inews-color-primary, #{$red});
+
+          span {
+            position: relative;
+
+            &::after {
+              position: absolute;
+              bottom: -5px;
+              display: block;
+              width: 100%;
+              border-bottom: 2px solid;
+              content: ' ';
+            }
+          }
+        }
+      }
+      /* stylelint-enable selector-no-qualifying-type */
+
+      &:hover {
+        .inews__header-menu__top-level-link {
+          /*
+           * The below rules increase the hover bounds of the top level link allowing the user to take a
+           * diagonal path, as opposed to straight down, with their cursor to reach the subnav that is
+           * only shown on hover.
+           */
+          position: relative;
+          color: var(--inews-color-primary, #{$red});
+
+          ::before,
+          ::after {
+            position: absolute;
+            top: 25px;
+            left: -20px;
+            width: 50px;
+            height: 100%;
+            transform: rotate(35deg);
+            content: ' ';
+          }
+
+          ::after {
+            right: -20px;
+            left: auto;
+            transform: rotate(-35deg);
+          }
+        }
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 0.6rem;
+        color: $grey-2;
+      }
+
+      &:hover {
+        .inews__subnav {
+          display: flex;
+        }
+      }
+    }
+
+    //only target top level menu items
+    /* stylelint-disable selector-max-compound-selectors */
+    > ul > li:hover {
+      > a,
+      > .color-context > a {
+        span {
+          position: relative;
+
+          &::after {
+            position: absolute;
+            bottom: -5px;
+            display: block;
+            width: 100%;
+            border-bottom: 2px solid;
+            content: ' ';
+          }
+        }
+      }
+    }
+    /* stylelint-enable selector-max-compound-selectors */
+
+    .inews__subnav {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      z-index: 101;
+      display: none;
+      box-sizing: border-box;
+      width: 100%;
+      width: 100vw;
+      height: 50px;
+      padding: 0 calc((100vw - 1210px) / 2);
+      background-color: var(--inews-color-primary, #{$red});
+      box-shadow: 0 1px 3px #00000029;
+
+      &:hover {
+        display: flex;
+      }
+
+      li {
+        flex-basis: auto;
+        height: 100%;
+      }
+
+      a {
+        height: 50px;
+        color: $white;
+        font-size: 1.1rem;
+        font-family: $serif-headline;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .inews__header__hamburger__button {
+    display: none;
+  }
+
+  .inews__header {
+    height: $sticky-header-height-desktop;
+
+    .inews__header__inner {
+      width: $main-content-width-desktop-xl;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+
+  /*
+   * The following min-width rules are to prevent CLS
+   * hits due to the horizontal shift of the menu when
+   * the fonts loads in
+   */
+  /* stylelint-disable selector-no-qualifying-type */
+  .inews-menu-item a[title='News'] span {
+    min-width: 45px;
+  }
+
+  .inews-menu-item a[title='Politics'] span {
+    min-width: 60px;
+  }
+
+  .inews-menu-item a[title='Opinion'] span {
+    min-width: 67px;
+  }
+
+  .inews-menu-item a[title='Culture'] span {
+    min-width: 62px;
+  }
+
+  .inews-menu-item a[title='Money'] span {
+    min-width: 53px;
+  }
+
+  .inews-menu-item a[title='Lifestyle'] span {
+    min-width: 69px;
+  }
+
+  .inews-menu-item a[title='Features'] span {
+    min-width: 72px;
+  }
+
+  .inews-menu-item a[title='Sport'] span {
+    min-width: 48px;
+  }
+  /* stylelint-enable selector-no-qualifying-type */
+}
+
+@media (min-width: 1231px) {
+  .inews__header-menu .inews__subnav li:first-child > a {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,349 @@
+/* ======= In-Article Piano templates ======== */
+.inews__email-signup {
+  min-height: 243px;
+
+  @media (--tablet-and-up) {
+    min-height: 184px;
+  }
+
+  &-money,
+  &-score {
+    min-height: 211px;
+
+    @media (--mobileM-and-up) {
+      min-height: 254px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 184px;
+    }
+  }
+
+  &-tv,
+  &-culture {
+    min-height: 211px;
+
+    @media (--mobileM-and-up) {
+      min-height: 235px;
+    }
+
+    @media (--mobileL-and-up) {
+      min-height: 256px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 184px;
+    }
+  }
+
+  &-environment {
+    min-height: 243px;
+
+    @media (--mobileM-and-up) {
+      min-height: 235px;
+    }
+
+    @media (--mobileL-and-up) {
+      min-height: 256px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 184px;
+    }
+  }
+
+  &-cricket {
+    min-height: 223px;
+
+    @media (--mobileM-and-up) {
+      min-height: 255px;
+    }
+
+    @media (--mobileL-and-up) {
+      min-height: 275px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 184px;
+    }
+  }
+
+  &-football,
+  &-education {
+    min-height: 243px;
+
+    @media (--mobileM-and-up) {
+      min-height: 275px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 184px;
+    }
+  }
+
+  &-boxing {
+    min-height: 243px;
+
+    @media (--mobileM-and-up) {
+      min-height: 258px;
+    }
+
+    @media (--mobileL-and-up) {
+      min-height: 282px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 184px;
+    }
+  }
+}
+
+/* ======= Free Piano Splash templates ======== */
+.inews__email-signup-cat {
+  min-height: 244px;
+  margin-bottom: 1rem;
+
+  @media (--tablet-and-up) {
+    min-height: 188px;
+  }
+
+  &-essential,
+  &-opinion,
+  &-education {
+    min-height: 328px;
+
+    @media (--mobileM-and-up) {
+      min-height: 356px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 321px;
+    }
+  }
+
+  &-tv {
+    min-height: 328px;
+
+    @media (--mobileM-and-up) {
+      min-height: 333px;
+    }
+
+    @media (--mobileL-and-up) {
+      min-height: 354px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 321px;
+    }
+  }
+
+  &-culture {
+    min-height: 328px;
+
+    @media (--mobileM-and-up) {
+      min-height: 351px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 321px;
+    }
+  }
+
+  &-money {
+    min-height: 306px;
+
+    @media (--mobileM-and-up) {
+      min-height: 333px;
+    }
+
+    @media (--mobileL-and-up) {
+      min-height: 354px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 321px;
+    }
+  }
+
+  &-cricket,
+  &-environment {
+    min-height: 341px;
+
+    @media (--mobileM-and-up) {
+      min-height: 333px;
+    }
+
+    @media (--mobileL-and-up) {
+      min-height: 354px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 321px;
+    }
+  }
+
+  &-sport {
+    min-height: 355px;
+
+    @media (--tablet-and-up) {
+      min-height: 321px;
+    }
+  }
+
+  &-football {
+    min-height: 364px;
+
+    @media (--mobileM-and-up) {
+      min-height: 354px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 321px;
+    }
+  }
+
+  &-politics {
+    min-height: 406px;
+
+    @media (--mobileM-and-up) {
+      min-height: 422px;
+    }
+
+    @media (--mobileL-and-up) {
+      min-height: 382px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 365px;
+    }
+
+    @media (--desktop-and-up) {
+      min-height: 321px;
+    }
+  }
+
+  &-boxing {
+    min-height: 364px;
+
+    @media (--mobileL-and-up) {
+      min-height: 384px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 321px;
+    }
+  }
+
+  /* ======= Premium Piano Splash templates ======== */
+  &-culture-fix {
+    min-height: 361px;
+
+    @media (--tablet-and-up) {
+      min-height: 328px;
+    }
+  }
+
+  &-big-reads {
+    min-height: 358px;
+
+    @media (--mobileM-and-up) {
+      min-height: 362px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 328px;
+    }
+  }
+
+  &-geekweek {
+    min-height: 338px;
+
+    @media (--mobileM-and-up) {
+      min-height: 372px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 328px;
+    }
+  }
+
+  &-ianDunt {
+    min-height: 371px;
+
+    @media (--mobileM-and-up) {
+      min-height: 406px;
+    }
+
+    @media (--mobileL-and-up) {
+      min-height: 386px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 328px;
+    }
+  }
+
+  &-homefront {
+    min-height: 394px;
+
+    @media (--mobileM-and-up) {
+      min-height: 386px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 328px;
+    }
+  }
+
+  &-earlyedition {
+    min-height: 396px;
+
+    @media (--mobileM-and-up) {
+      min-height: 386px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 328px;
+    }
+  }
+
+  &-inconversation {
+    min-height: 371px;
+
+    @media (--mobileM-and-up) {
+      min-height: 390px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 328px;
+    }
+  }
+
+  &-armchair-economics {
+    min-height: 416px;
+
+    @media (--mobileM-and-up) {
+      min-height: 406px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 372px;
+    }
+
+    @media (--desktop-and-up) {
+      min-height: 328px;
+    }
+  }
+
+  &-cockburn {
+    min-height: 394px;
+
+    @media (--mobileM-and-up) {
+      min-height: 400px;
+    }
+
+    @media (--tablet-and-up) {
+      min-height: 372px;
+    }
+  }
+}

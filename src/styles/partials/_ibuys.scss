@@ -1,0 +1,32 @@
+@import '../partials/_colors';
+@import '../partials/_fonts';
+
+.inews__main__primary .article-content {
+  .inews__ibuys_image {
+    float: left;
+    width: 50%;
+    margin-right: 1rem;
+  }
+
+  .inews__ibuys__info {
+    float: left;
+
+    a {
+      color: $red;
+    }
+  }
+
+  .inews__ibuys__description {
+    clear: both;
+    padding-top: 0.4rem;
+  }
+
+  a.inews__ibuys__buynow {
+    display: inline-block; /* stylelint-disable-line selector-no-qualifying-type */
+    padding: 0.4rem 0.8rem;
+    color: $white;
+    font-family: $sans;
+    text-align: center;
+    background: $red;
+  }
+}

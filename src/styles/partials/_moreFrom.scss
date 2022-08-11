@@ -1,0 +1,30 @@
+.inews__more-from {
+  display: none;
+  margin: 1rem 0;
+
+  &__posts {
+    display: grid;
+    row-gap: 0.5rem;
+
+    @media (--tablet-and-up) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .inews__post-teaser__media {
+      display: block;
+    }
+  }
+
+  .inews__post-jot {
+    h2 {
+      display: inline;
+    }
+  }
+
+  .inews__post-jot {
+    .inews__post__badge {
+      text-indent: 0;
+    }
+  }
+}

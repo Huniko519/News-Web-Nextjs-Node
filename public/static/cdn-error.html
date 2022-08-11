@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="icon" type="image/png" href="/images/favicon/16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/images/favicon/32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon/96x96.png" sizes="96x96">
+  <link rel="apple-touch-icon" href="/images/favicon/192x192.png">
+  <style>
+    body {
+      width: 100%;
+      min-width: 320px;
+      padding: 60px 0 0;
+      font-family: Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+      background-color: #edf0f0;
+      margin: 0;
+    }
+    .inews__header {
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      min-width: 320px;
+      height: 60px;
+      padding: 0 10px;
+      background-color: #fff;
+      -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
+      box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
+    }
+    .inews__header,
+    .inews__header__inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0;
+    }
+    .inews__header__inner {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      height: 100%;
+      padding: .5rem 10px;
+    }
+    .inews__header__spacer {
+      width: 10px;
+      height: 10px;
+      -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+      order: 3;
+    }
+    .inews__header__logo svg {
+      width: 10px;
+      height: 30px;
+    }
+    .inews__header__search {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      font-family: Bitter, Georgia, "serif";
+    }
+    .inews__header__search__input {
+      display: none;
+    }
+    .inews__header__search__button {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: none;
+      border: 0;
+      outline: none;
+    }
+    .inews__header__search__button svg {
+      width: 22px;
+      height: 22px;
+      padding-top: 3px;
+      fill: #637581;
+    }
+    .inews__main {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      max-width: 1000px;
+      margin: 1rem auto;
+    }
+    .inews__main__primary {
+      padding: 1rem;
+      background-color: #fff;
+    }
+    h1 {
+      font-size: 2em;
+      margin: .67em 0;
+      font-family: Bitter, Georgia, "serif";
+    }
+    .inews__main__primary article>h1:first-of-type {
+      margin-top: 0;
+    }
+    p {
+      line-height: 1.6rem;
+    }
+    .inews__main__primary a {
+      color: #e33a11;
+      text-decoration: none;
+    }
+    .inews__footer {
+      color: #fff;
+      font-size: .8rem;
+      background: #e33a11;
+    }
+    .inews__footer .inews__main {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem;
+    }
+    .inews__footer__logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    .inews__footer__logo svg {
+      width: 36px;
+      height: 36px;
+      background: #fff;
+    }
+    .inews__footer__meta {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+    .inews__footer__copyright {
+      margin-top: 0;
+      text-align: center;
+    }
+    .inews__footer__links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .inews__footer__links li {
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+      margin-bottom: 0;
+      border-right: 1px solid #fff;
+    }
+    .inews__footer__links li:last-child {
+      border-right: 0;
+    }
+    .inews__footer__links a {
+      display: inline-block;
+      padding: .25rem .75rem;
+      color: #fff;
+      font-size: .75rem;
+      text-decoration: none;
+    }
+
+    @media only screen and (min-width: 48em) {
+      body {
+        padding-top: 80px;
+      }
+      .inews__header {
+        height: 80px;
+      }
+      .inews__header__logo {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        height: 100%;
+        margin-right: auto;
+        padding-right: 2rem;
+      }
+      .inews__header__spacer {
+        display: none;
+      }
+      .inews__header__logo,
+      .inews__header__search {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+      .inews__header__search {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        font-size: 1.25rem;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 260px;
+        height: 30px;
+        margin-left: auto;
+        overflow: hidden;
+        border: 1px solid #637581;
+        border-radius: 4px;
+      }
+      .inews__header__search__input {
+        display: block;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        padding: 0 10px;
+        color: #637581;
+        font-size: 14px;
+        font-family: Bitter, Georgia, "serif";
+        line-height: 30px;
+        background: none;
+        border: 0;
+        outline: none;
+      }
+      .inews__header__search__button {
+        width: 30px;
+        height: 30px;
+        background: #637581;
+      }
+      .inews__header__search__button svg {
+        fill: #fff;
+      }
+      .inews__main {
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .inews__footer__logo {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 0;
+      }
+      .inews__footer .inews__main {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+      }
+    }
+
+    @media only screen and (min-width: 64em) {
+      body {
+        padding-top: 100px;
+      }
+      .inews__header {
+        height: 100px;
+      }
+      .inews__header .inews__header__inner {
+        width: 1210px;
+        margin: 0 auto;
+        padding: 0;
+      }
+      .inews__header__logo {
+        margin-right: 0;
+        padding-right: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="is-error">
+  <div class="inews__header">
+    <div class="inews__header__inner">
+      <form class="inews__header__search i-amphtml-form" action="/search" method="get" novalidate="">
+        <input type="text" class="inews__header__search__input" name="q" placeholder="Search">
+        <button class="inews__header__search__button" title="search" type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 19.585938 21.585938 C 20.137937 22.137937 21.033938 22.137938 21.585938 21.585938 C 22.137938 21.033938 22.137938 20.137938 21.585938 19.585938 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z">
+            </path>
+          </svg>
+        </button>
+      </form>
+
+      <a href="/" aria-label="Back to homepage" class="inews__header__logo">
+        <svg width="13px" height="38px" viewBox="0 0 13 38" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="" fill="#e33a11">
+              <circle cx="5.58066347" cy="4.31034483" r="4.31034483"></circle>
+              <polygon
+                points="6.12536841e-15 12.8290921 9.26687036 12.8290921 9.26687036 33.7527062 12.0282846 33.7527062 12.0282846 37.4338935 0.0621562636 37.4338935 0.0621562636 33.7527062 3.1301615 33.7527062 3.1301615 16.5109777 6.12536841e-15 16.5109777">
+              </polygon>
+            </g>
+          </g>
+        </svg>
+      </a>
+
+      <span class="inews__header__spacer"></span>
+    </div>
+  </div>
+
+  <div class="inews__main">
+    <div class="inews__main__primary">
+      <article class="error">
+        <h1>Server Error</h1>
+        <p>We are sorry to say that you have found our 'sorry' page while visiting inews</p>
+        <p>You may be attempting to get to a page that doesn't exist or our web gurus are currently trying to fix the
+          issue.</p>
+        <p>If refreshing this page doesn't fix the issue then please try the <a href="/">homepage</a>, <a
+            href="/news">news</a> or <a href="/sport">sport</a> section.</p>
+      </article>
+    </div>
+  </div>
+  <footer class="inews__footer">
+    <div class="inews__footer__strap">
+      <div class="inews__main">
+        <a href="/" aria-label="Back to homepage" class="inews__footer__logo">
+          <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(19.140625, 6.250000)" fill="#e33a11">
+                <circle cx="5.58066347" cy="4.31034483" r="4.31034483"></circle>
+                <polygon
+                  points="6.12536841e-15 12.8290921 9.26687036 12.8290921 9.26687036 33.7527062 12.0282846 33.7527062 12.0282846 37.4338935 0.0621562636 37.4338935 0.0621562636 33.7527062 3.1301615 33.7527062 3.1301615 16.5109777 6.12536841e-15 16.5109777">
+                </polygon>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <div class="inews__footer__meta">
+          <p class="inews__footer__copyright">All rights reserved. © 2021 Associated Newspapers Limited.</p>
+          <ul class="inews__footer__links">
+            <li><a rel="noopener" href="/terms-and-conditions">Terms and Conditions</a></li>
+            <li><a rel="noopener" href="/privacy-policy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

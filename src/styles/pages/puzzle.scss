@@ -1,0 +1,24 @@
+@import '../../../src/styles/pages/post';
+@import '../../../src/styles/partials/colors';
+
+h1 {
+  text-transform: uppercase;
+
+  .puzzle-formated-date {
+    display: block;
+    text-transform: capitalize;
+
+    @media (--tablet-and-up) {
+      display: inline;
+    }
+  }
+}
+
+#puzzle-div {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 6px $grey-6;
+}

@@ -1,0 +1,26 @@
+/**
+ * Dimension constants
+ */
+$main-content-width-desktop: 1000px;
+$main-content-width-desktop-xl: 1210px;
+
+$cat-banner-width-desktop: 1100px;
+
+$sticky-header-height-desktop: 100px;
+$sticky-header-height-tablet: 80px;
+$sticky-header-height-mobile: 60px;
+
+$sticky-archive-title-height: 50px;
+
+//(#{$main-content-width-desktop} - 100vw)/2) to escape .inews__main auto margin
+//-1rem to escape .inews-main container padding
+$full-width-offset-from-main-desktop: calc(
+  ((#{$main-content-width-desktop} - 100vw) / 2) - 1rem
+);
+$full-width-inset-to-main-desktop: calc(
+  ((100vw - #{$main-content-width-desktop}) / 2) + 1rem
+);
+
+//-1rem to escape .inews__main container padding
+$full-width-offset-from-main-mobile: -1rem;
+$full-width-inset-to-main-mobile: 1rem;

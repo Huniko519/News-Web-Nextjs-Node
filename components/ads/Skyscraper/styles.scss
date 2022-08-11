@@ -1,0 +1,27 @@
+@import '../../../src/styles/partials/_dimensions';
+
+.inews__skyscraper_left,
+.inews__skyscraper_right {
+  position: absolute;
+  z-index: 20;
+  width: calc((100% - #{$main-content-width-desktop}) / 2);
+  height: calc(100% - 80px);
+
+  @media (--tablet-and-below) {
+    display: none;
+  }
+
+  .inews__advert {
+    position: sticky;
+    top: calc(80px + 2em);
+    float: right;
+  }
+}
+
+.inews__skyscraper_right {
+  right: 0;
+
+  .inews__advert {
+    float: left;
+  }
+}

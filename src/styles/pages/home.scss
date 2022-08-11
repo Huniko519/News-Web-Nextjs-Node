@@ -1,0 +1,20 @@
+@import './taxonomy';
+@import '../partials/_masthead';
+@import '../partials/skyline';
+@import '../partials/embedded';
+
+@media (--desktopXL-only) {
+  .inews__main {
+    margin: 1rem 0 2rem
+      calc(((100vw - (#{$main-content-width-desktop-xl} - 0.5rem)) / 2) + 220px);
+  }
+
+  .inews__post-section__title h2 {
+    margin-left: calc(((#{$main-content-width-desktop-xl} - 100vw) / 2) - 220px - 1.25rem);
+
+    > a,
+    > span {
+      margin-left: calc((100vw - #{$main-content-width-desktop-xl}) / 2 + 220px + 1.25rem);
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import '../../../src/styles/partials/colors';
+@import '../../../src/styles/partials/fonts';
+@import '../../../src/styles/partials/_media_queries';
+
+.inews__header-inner {
+  span {
+    @media (--mobile-and-below) {
+      display: none;
+    }
+  }
+
+  strong {
+    @media (--mobile-and-below) {
+      font-size: 0.9rem;
+    }
+  }
+
+  img {
+    @media (--mobile-and-below) {
+      width: 90px;
+    }
+  }
+}
+
+.inews__money-solutions-page {
+  &__header {
+    svg {
+      margin-top: 0;
+    }
+  }
+
+  .headline {
+    margin-bottom: -1rem;
+    @media (--mobile-only) {
+      margin-bottom: -2rem;
+    }
+  }
+
+  .inews__sidebar {
+    @media (--tablet-and-up) {
+      padding-left: 1rem;
+    }
+
+    .widget {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .inews__sidebar-inner {
+    width: 100%;
+
+    h2 {
+      color: $red;
+    }
+  }
+}

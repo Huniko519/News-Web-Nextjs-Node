@@ -1,0 +1,70 @@
+@import '../partials/_colors';
+@import '../partials/_media_queries';
+@import '../partials/_fonts';
+@import '../partials/post-layout/_post-layout';
+@import '../partials/_archive-title';
+@import '../partials/embedded';
+
+body {
+  background-color: $white;
+}
+
+.is-category {
+  .inews__archive__title {
+    width: 100vw;
+    margin: 1rem 0;
+    border-bottom: 5px solid var(--inews-color-primary, #{$red});
+    @media (--tablet-and-up) {
+      border: 0;
+    }
+    @media (--desktop-and-up) {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 0;
+      padding-bottom: 5px;
+      font-size: 1.2rem;
+      @media (--tablet-and-up) {
+        font-size: 2rem;
+      }
+
+      @media (--desktop-and-up) {
+        font-size: 2.25rem;
+      }
+    }
+  }
+
+  &.is-category-child:not(.is-category-slug-politics):not(.is-category-slug-money):not(.is-category-slug-long-reads) {
+    .inews__archive__title {
+      @media (--tablet-and-up) {
+        margin-left: $full-width-offset-from-main-mobile;
+        background: $white;
+        border-bottom: 10px solid var(--inews-color-primary, #{$red});
+
+        h1 {
+          margin-left: $full-width-inset-to-main-mobile;
+          font-size: 1.2rem;
+        }
+      }
+      @media (--desktop-and-up) {
+        position: absolute;
+        top: 160px;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        height: $sticky-archive-title-height;
+        margin-bottom: 0;
+        margin-left: $full-width-offset-from-main-desktop;
+
+        h1 {
+          margin-left: $full-width-inset-to-main-desktop;
+          padding: 0;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}

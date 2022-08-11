@@ -1,0 +1,11 @@
+.inews__header,
+.inews__footer {
+  display: none;
+}
+
+/* stylelint-disable selector-max-compound-selectors */
+.inews__subscribe_page__body {
+  iframe {
+    display: block;
+  }
+}

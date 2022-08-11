@@ -1,0 +1,1082 @@
+[
+  {
+    "redirect_from": "/topic/accident",
+    "redirect_to": "/topic/accidents",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/acid-attacks",
+    "redirect_to": "/topic/acid-attack",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/advert",
+    "redirect_to": "/topic/adverts",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/airline",
+    "redirect_to": "/topic/airlines",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/airplane",
+    "redirect_to": "/topic/planes",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/airplanes",
+    "redirect_to": "/topic/planes",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/airport",
+    "redirect_to": "/topic/airports",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/alien",
+    "redirect_to": "/topic/aliens",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/americans-travel",
+    "redirect_to": "/topic/americas-travel",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/anne-widdecombe",
+    "redirect_to": "/topic/ann-widdecombe",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/archeology",
+    "redirect_to": "/topic/archaeology",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/artificial-inteligence",
+    "redirect_to": "/topic/artificial-intelligence",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/arts-review",
+    "redirect_to": "/topic/arts-reviews",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/book-feature",
+    "redirect_to": "/topic/books-feature",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/book-interview",
+    "redirect_to": "/topic/book-interviews",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/book-review",
+    "redirect_to": "/topic/book-reviews",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/budget-2017",
+    "redirect_to": "/topic/budget",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/budget-2018",
+    "redirect_to": "/topic/budget",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/burger",
+    "redirect_to": "/topic/burgers",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/cancer-research-uk",
+    "redirect_to": "/topic/cancer-research",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/care-home",
+    "redirect_to": "/topic/care-homes",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/christmas-2018",
+    "redirect_to": "/topic/christmas",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/christmas-2019",
+    "redirect_to": "/topic/christmas",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/christmas-gift-guide",
+    "redirect_to": "/topic/christmas-gift-guides",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/city-breaks",
+    "redirect_to": "/topic/city-break",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/city-guides",
+    "redirect_to": "/topic/city-guide",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/columnist",
+    "redirect_to": "/topic/columnists",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/computer",
+    "redirect_to": "/topic/computers",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/conservative",
+    "redirect_to": "/topic/conservative-party",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/conservatives",
+    "redirect_to": "/topic/conservative-party",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/consumers",
+    "redirect_to": "/topic/consumer",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/coral-reef",
+    "redirect_to": "/topic/coral-reefs",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/council",
+    "redirect_to": "/topic/councils",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/court",
+    "redirect_to": "/topic/courts",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/crimes",
+    "redirect_to": "/topic/crime",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/cruise",
+    "redirect_to": "/topic/cruises",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/deaths",
+    "redirect_to": "/topic/death",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/dentist",
+    "redirect_to": "/topic/dentists",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/dinosaur",
+    "redirect_to": "/topic/dinosaurs",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/disabilites",
+    "redirect_to": "/topic/disability",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/disabilities",
+    "redirect_to": "/topic/disability",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/doctor",
+    "redirect_to": "/topic/doctors",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/drinks",
+    "redirect_to": "/topic/drink",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/drone",
+    "redirect_to": "/topic/drones",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/eating-disorder",
+    "redirect_to": "/topic/eating-disorders",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/election",
+    "redirect_to": "/topic/elections",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/electric-car",
+    "redirect_to": "/topic/electric-cars",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/electric-vehicle",
+    "redirect_to": "/topic/electric-vehicles",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/emoji",
+    "redirect_to": "/topic/emojis",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/eu-election",
+    "redirect_to": "/topic/eu-elections",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/european-election",
+    "redirect_to": "/topic/european-elections",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/eurovision-2018",
+    "redirect_to": "/topic/eurovision",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/eurovision-2019",
+    "redirect_to": "/topic/eurovision",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/exhibition",
+    "redirect_to": "/topic/exhibitions",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/explainer",
+    "redirect_to": "/topic/explainers",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/fertiity",
+    "redirect_to": "/topic/fertility",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/festival",
+    "redirect_to": "/topic/festivals",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/film-interview",
+    "redirect_to": "/topic/film-interviews",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/film-review",
+    "redirect_to": "/topic/film-reviews",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/finances",
+    "redirect_to": "/topic/finance",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/flight",
+    "redirect_to": "/topic/flights",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/flood",
+    "redirect_to": "/topic/floods",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/food-bank",
+    "redirect_to": "/topic/food-banks",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/football-manager-2019",
+    "redirect_to": "/topic/football-manager",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/football-manager-2020",
+    "redirect_to": "/topic/football-manager",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/forest",
+    "redirect_to": "/topic/forests",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/fossil",
+    "redirect_to": "/topic/fossils",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/fuel-price",
+    "redirect_to": "/topic/fuel-prices",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/fund-raising",
+    "redirect_to": "/topic/fundraising",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/funeral",
+    "redirect_to": "/topic/funerals",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/gig-review",
+    "redirect_to": "/topic/gig-reviews",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/glastonbury-2017",
+    "redirect_to": "/topic/glastonbury",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/glastonbury-2019",
+    "redirect_to": "/topic/glastonbury",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/google-doodle",
+    "redirect_to": "/topic/google-doodles",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/great-british-bake-off-2017",
+    "redirect_to": "/topic/bake-off",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/great-british-bake-off-2018",
+    "redirect_to": "/topic/bake-off",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/greenhouse-gas",
+    "redirect_to": "/topic/greenhouse-gases",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/heart-attacks",
+    "redirect_to": "/topic/heart-attack",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/high-streets",
+    "redirect_to": "/topic/high-street",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/holiday",
+    "redirect_to": "/topic/holidays",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/home-and-gardens",
+    "redirect_to": "/topic/homes-and-gardens",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/hospital",
+    "redirect_to": "/topic/hospitals",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/hotel",
+    "redirect_to": "/topic/hotels",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/hotel-reviews",
+    "redirect_to": "/topic/hotel-review",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/house",
+    "redirect_to": "/topic/houses",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/hybrid-cars",
+    "redirect_to": "/topic/hybrid-car",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/im-a-celeb",
+    "redirect_to": "/topic/im-a-celebrity",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/im-a-celebrity-2019",
+    "redirect_to": "/topic/im-a-celebrity",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/ifootball",
+    "redirect_to": "/topic/football",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/international-womens-day-2018",
+    "redirect_to": "/topic/international-womens-day",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/international-womens-day-2019",
+    "redirect_to": "/topic/international-womens-day",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/international-womens-day-2020",
+    "redirect_to": "/topic/international-womens-day",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/interview",
+    "redirect_to": "/topic/interviews",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/investigation",
+    "redirect_to": "/topic/investigations",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/iracing",
+    "redirect_to": "/topic/racing",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/islamaphobia",
+    "redirect_to": "/topic/islamophobia",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/jeffery-epstein",
+    "redirect_to": "/topic/jeffrey-epstein",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/jeremy-corby",
+    "redirect_to": "/topic/jeremy-corbyn",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/journalist",
+    "redirect_to": "/topic/journalism",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/junior-doctors-strikes",
+    "redirect_to": "/topic/junior-doctors-strike",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/laptop",
+    "redirect_to": "/topic/laptops",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/local-elections-2018",
+    "redirect_to": "/topic/local-elections",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/local-elections-2019",
+    "redirect_to": "/topic/local-elections",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/london-bridge-attack",
+    "redirect_to": "/topic/london-bridge-terror-attack",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/london-bridge-attacks",
+    "redirect_to": "/topic/london-bridge-terror-attack",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/long-read",
+    "redirect_to": "/topic/long-reads",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/makeup",
+    "redirect_to": "/topic/make-up",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/manchester-attacks",
+    "redirect_to": "/topic/manchester-attack",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/manchester-city",
+    "redirect_to": "/topic/manchester-city-fc",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/manchester-terror-attack",
+    "redirect_to": "/topic/manchester-attack",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/manchester-terrorist-attack",
+    "redirect_to": "/topic/manchester-attack",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/manchester-united",
+    "redirect_to": "/topic/manchester-united-fc",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/medicines",
+    "redirect_to": "/topic/medicine",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/mental-health-awareness",
+    "redirect_to": "/topic/mental-health",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/micheal-gove",
+    "redirect_to": "/topic/michael-gove",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/microplastics",
+    "redirect_to": "/topic/microplastic",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/migrant",
+    "redirect_to": "/topic/migrants",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/mobile-phone",
+    "redirect_to": "/topic/mobile-phones",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/mortgage",
+    "redirect_to": "/topic/mortgages",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/mother",
+    "redirect_to": "/topic/mothers",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/motorway",
+    "redirect_to": "/topic/motorways",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/music-festival",
+    "redirect_to": "/topic/music-festivals",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/musical",
+    "redirect_to": "/topic/musicals",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/muslim",
+    "redirect_to": "/topic/muslims",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/new-years-honours",
+    "redirect_to": "/topic/new-year-honours",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/newcastle-united",
+    "redirect_to": "/topic/newcastle-united-fc",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/nurse",
+    "redirect_to": "/topic/nurses",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/ocean",
+    "redirect_to": "/topic/oceans",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/ocean-plastics",
+    "redirect_to": "/topic/ocean-plastic",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/online-featues",
+    "redirect_to": "/topic/online-features",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/oscars-2017",
+    "redirect_to": "/topic/oscars",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/oscars-2017",
+    "redirect_to": "/topic/oscars",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/oscars-2018",
+    "redirect_to": "/topic/oscars",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/oscars-2018",
+    "redirect_to": "/topic/oscars",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/oscars-2019",
+    "redirect_to": "/topic/oscars",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/oscars-2019",
+    "redirect_to": "/topic/oscars",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/paintings",
+    "redirect_to": "/topic/art",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/paramedic",
+    "redirect_to": "/topic/paramedics",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/pension",
+    "redirect_to": "/topic/pensions",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/pensioner",
+    "redirect_to": "/topic/pensioners",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/plane",
+    "redirect_to": "/topic/planes",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/plastics",
+    "redirect_to": "/topic/plastic",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/podcast",
+    "redirect_to": "/topic/podcasts",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/presidential-election",
+    "redirect_to": "/topic/us-presidential-election",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/pride-2018",
+    "redirect_to": "/topic/pride",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/pride-2019",
+    "redirect_to": "/topic/pride",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/primary-school",
+    "redirect_to": "/topic/primary-schools",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/prison",
+    "redirect_to": "/topic/prisons",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/profile",
+    "redirect_to": "/topic/profiles",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/prostate-cancer-uk",
+    "redirect_to": "/topic/prostate-cancer",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/protest",
+    "redirect_to": "/topic/protests",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/qasem-soleimani",
+    "redirect_to": "/topic/qassem-soleimani",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/queen-elizabeth",
+    "redirect_to": "/topic/the-queen",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/queen-elizabeth-ii",
+    "redirect_to": "/topic/the-queen",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/rail-strike",
+    "redirect_to": "/topic/rail-strikes",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/railway",
+    "redirect_to": "/topic/railways",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/refugee",
+    "redirect_to": "/topic/refugees",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/restaurant",
+    "redirect_to": "/topic/restaurants",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/review",
+    "redirect_to": "/topic/reviews",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/robot",
+    "redirect_to": "/topic/robots",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/royal",
+    "redirect_to": "/topic/royals",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/ru-pauls-drag-race",
+    "redirect_to": "/topic/rupauls-drag-race",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/ryder-cup-2016",
+    "redirect_to": "/topic/ryder-cup",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/ryder-cup-2018",
+    "redirect_to": "/topic/ryder-cup",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/saturday-i-quiz",
+    "redirect_to": "/topic/i-saturday-quiz",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/saturday-iquiz",
+    "redirect_to": "/topic/i-saturday-quiz",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/saving",
+    "redirect_to": "/topic/savings",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/school",
+    "redirect_to": "/topic/schools",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/selfie",
+    "redirect_to": "/topic/selfies",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/shark",
+    "redirect_to": "/topic/sharks",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/short-break",
+    "redirect_to": "/topic/short-breaks",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/sir-david-attenborough",
+    "redirect_to": "/topic/david-attenborough",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/sitcoms",
+    "redirect_to": "/topic/sitcom",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/smart-speakers",
+    "redirect_to": "/topic/smart-speaker",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/smartphone",
+    "redirect_to": "/topic/smartphones",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/smartwatch",
+    "redirect_to": "/topic/smartwatches",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/speaker",
+    "redirect_to": "/topic/commons-speaker",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/sports",
+    "redirect_to": "/topic/sport",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/staycation",
+    "redirect_to": "/topic/staycations",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/stock-markets",
+    "redirect_to": "/topic/stock-market",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/storm",
+    "redirect_to": "/topic/storms",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/strictly-come-dancing-2018",
+    "redirect_to": "/topic/strictly-come-dancing",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/strictly-come-dancing-2019",
+    "redirect_to": "/topic/strictly-come-dancing",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/strike",
+    "redirect_to": "/topic/strikes",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/strokes",
+    "redirect_to": "/topic/stroke",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/student",
+    "redirect_to": "/topic/students",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/suffragette",
+    "redirect_to": "/topic/suffragettes",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/sunderland-fc",
+    "redirect_to": "/topic/sunderland-afc",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/supermarket",
+    "redirect_to": "/topic/supermarkets",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/tattoo",
+    "redirect_to": "/topic/tattoos",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/teacher",
+    "redirect_to": "/topic/teachers",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/teenager",
+    "redirect_to": "/topic/teenagers",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/terror-attack",
+    "redirect_to": "/topic/terror-attacks",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/the-conservative-party",
+    "redirect_to": "/topic/conservative-party",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/thriller",
+    "redirect_to": "/topic/thrillers",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/toddler",
+    "redirect_to": "/topic/toddlers",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/tottenham-hotspur",
+    "redirect_to": "/topic/tottenham-hotspur-fc",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/train",
+    "redirect_to": "/topic/trains",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/travel-guide",
+    "redirect_to": "/topic/travel-guides",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/traveller",
+    "redirect_to": "/topic/travellers",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/union",
+    "redirect_to": "/topic/unions",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/vegans",
+    "redirect_to": "/topic/vegan",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/veteran",
+    "redirect_to": "/topic/veterans",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/wedding",
+    "redirect_to": "/topic/weddings",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/west-ham-united",
+    "redirect_to": "/topic/west-ham-united-fc",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/westminister",
+    "redirect_to": "/topic/westminster",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/wetherspoon",
+    "redirect_to": "/topic/wetherspoons",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/wheelchairs",
+    "redirect_to": "/topic/wheelchair",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/wimbledon-2017",
+    "redirect_to": "/topic/wimbledon",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/wimbledon-2017",
+    "redirect_to": "/topic/wimbledon",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/wimbledon-2018",
+    "redirect_to": "/topic/wimbledon",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/wimbledon-2018",
+    "redirect_to": "/topic/wimbledon",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/wimbledon-2019",
+    "redirect_to": "/topic/wimbledon",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/wimbledon-2019",
+    "redirect_to": "/topic/wimbledon",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/withdrawal-bill",
+    "redirect_to": "/topic/eu-withdrawal-bill",
+    "status_code": 301
+  },
+  {
+    "redirect_from": "/topic/women-health",
+    "redirect_to": "/topic/womens-health",
+    "status_code": 301
+  }
+]

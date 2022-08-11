@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the snapshot 1`] = `
+<PostSectionWrapper
+  className=""
+  teaserPosition=""
+  type="PostSection4xTeaser"
+>
+  <PostSectionTitle
+    link="https://inews.test/news"
+    title="PostSection title"
+  />
+  <div
+    className="inews__post-section__body"
+  >
+    <PostTeaser
+      key="1"
+      post={
+        Object {
+          "breadcrumbs": Array [
+            Object {
+              "name": "News",
+            },
+          ],
+          "id": 1,
+          "link": "https://inews-article.com/test-article-1",
+          "title": Object {
+            "rendered": "title 1",
+          },
+        }
+      }
+      showAuthor={false}
+      showPubDate={false}
+    />
+    <PostTeaser
+      key="2"
+      post={
+        Object {
+          "breadcrumbs": Array [
+            Object {
+              "name": "News",
+            },
+          ],
+          "id": 2,
+          "link": "https://inews-article.com/test-article-2",
+          "title": Object {
+            "rendered": "title 2",
+          },
+        }
+      }
+      showAuthor={false}
+      showPubDate={false}
+    />
+    <PostTeaser
+      key="3"
+      post={
+        Object {
+          "breadcrumbs": Array [
+            Object {
+              "name": "News",
+            },
+          ],
+          "id": 3,
+          "link": "https://inews-article.com/test-article-3",
+          "title": Object {
+            "rendered": "title 3",
+          },
+        }
+      }
+      showAuthor={false}
+      showPubDate={false}
+    />
+    <PostTeaser
+      key="4"
+      post={
+        Object {
+          "breadcrumbs": Array [
+            Object {
+              "name": "News",
+            },
+          ],
+          "id": 4,
+          "link": "https://inews-article.com/test-article-4",
+          "title": Object {
+            "rendered": "title 4",
+          },
+        }
+      }
+      showAuthor={false}
+      showPubDate={false}
+    />
+  </div>
+</PostSectionWrapper>
+`;

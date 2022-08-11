@@ -1,0 +1,169 @@
+{
+  "inews.video": [{
+      "breakpoints": ["sm", "xs"],
+      "sizes": [
+        640, 360
+      ],
+      "mediaTypes": {
+        "video": {
+          "context": "instream",
+          "playerSize": [640, 360],
+          "mimes": ["video/mp4", "application/javascript"],
+          "protocols": [1, 2, 3, 5, 6],
+          "api": [1, 2],
+          "maxduration": 30,
+          "linearity": 1
+        }
+      },
+      "bidders": [{
+        "bidder": "appnexus",
+        "params": {
+          "placementId": "19156706"
+        }
+      }, {
+        "bidder": "ix",
+        "params": {
+          "id": "232406",
+          "siteId": "502403",
+          "size": [640, 360],
+          "video": {
+            "mimes": ["video/mp4", "video/webm", "application/javascript"],
+            "protocols": [1, 2, 3, 5, 6],
+            "api": [1, 2],
+            "maxduration": 30,
+            "minduration": 0,
+            "startdelay": 0
+          }
+        }
+      }, {
+        "bidder": "rubicon",
+        "params": {
+          "zoneId": "1692544",
+          "siteId": "325646",
+          "accountId": "22316",
+          "position": "atf",
+          "video": {
+            "language": "en",
+            "playerWidth": 640,
+            "playerHeight": 360
+          }
+        }
+      }, {
+        "bidder": "spotx",
+        "params": {
+          "channel_id": 286808
+        }
+      }]
+    }, {
+      "breakpoints": ["md"],
+      "sizes": [
+        640, 360
+      ],
+      "mediaTypes": {
+        "video": {
+          "context": "instream",
+          "playerSize": [640, 360],
+          "mimes": ["video/mp4", "application/javascript"],
+          "protocols": [1, 2, 3, 5, 6],
+          "api": [1, 2],
+          "maxduration": 30,
+          "linearity": 1
+        }
+      },
+      "bidders": [{
+        "bidder": "appnexus",
+        "params": {
+          "placementId": "19156696"
+        }
+      }, {
+        "bidder": "ix",
+        "params": {
+          "id": "232406",
+          "siteId": "502402",
+          "size": [640, 360],
+          "video": {
+            "mimes": ["video/mp4", "video/webm", "application/javascript"],
+            "protocols": [1, 2, 3, 5, 6],
+            "api": [1, 2],
+            "maxduration": 30,
+            "minduration": 0,
+            "startdelay": 0
+          }
+        }
+      }, {
+        "bidder": "rubicon",
+        "params": {
+          "zoneId": "1692542",
+          "siteId": "325646",
+          "accountId": "22316",
+          "position": "atf",
+          "video": {
+            "language": "en",
+            "playerWidth": 640,
+            "playerHeight": 360
+          }
+        }
+      }, {
+        "bidder": "spotx",
+        "params": {
+          "channel_id": 286809
+        }
+      }]
+    }, {
+      "breakpoints": ["lg", "xl"],
+      "sizes": [
+        640, 360
+      ],
+      "mediaTypes": {
+        "video": {
+          "context": "instream",
+          "playerSize": [640, 360],
+          "mimes": ["video/mp4", "application/javascript"],
+          "protocols": [1, 2, 3, 5, 6],
+          "api": [1, 2],
+          "maxduration": 30,
+          "linearity": 1
+        }
+      },
+      "bidders": [{
+        "bidder": "appnexus",
+        "params": {
+          "placementId": "19156640"
+        }
+      }, {
+        "bidder": "ix",
+        "params": {
+          "id": "232406",
+          "siteId": "502400",
+          "size": [640, 360],
+          "video": {
+            "mimes": ["video/mp4", "video/webm", "application/javascript"],
+            "protocols": [1, 2, 3, 5, 6],
+            "api": [1, 2],
+            "maxduration": 30,
+            "minduration": 0,
+            "startdelay": 0
+          }
+        }
+      }, {
+        "bidder": "rubicon",
+        "params": {
+          "zoneId": "1692540",
+          "siteId": "325646",
+          "accountId": "22316",
+          "position": "atf",
+          "video": {
+            "language": "en",
+            "playerWidth": 640,
+            "playerHeight": 360
+          }
+        }
+      }, {
+        "bidder": "spotx",
+        "params": {
+          "channel_id": 286807
+        }
+      }]
+    }
+  ]
+}

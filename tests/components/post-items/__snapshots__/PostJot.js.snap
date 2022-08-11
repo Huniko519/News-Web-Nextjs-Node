@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the snapshot 1`] = `
+<div
+  className="inews__post inews__post-jot "
+  data-post-id={1}
+  key="1"
+>
+  <div
+    className="inews__post-jot__content"
+  >
+    <PostItemBadge
+      post={
+        Object {
+          "breadcrumbs": Array [
+            Object {
+              "name": "News",
+            },
+          ],
+          "id": 1,
+          "link": "https://inews-article.com/test-article",
+          "title": Object {
+            "rendered": "title",
+          },
+        }
+      }
+      showAuthor={false}
+    />
+    <div
+      className="inews__post-jot__content-headline"
+    >
+      <PostItemLabel
+        post={
+          Object {
+            "breadcrumbs": Array [
+              Object {
+                "name": "News",
+              },
+            ],
+            "id": 1,
+            "link": "https://inews-article.com/test-article",
+            "title": Object {
+              "rendered": "title",
+            },
+          }
+        }
+      />
+      <PostItemTitle
+        post={
+          Object {
+            "breadcrumbs": Array [
+              Object {
+                "name": "News",
+              },
+            ],
+            "id": 1,
+            "link": "https://inews-article.com/test-article",
+            "title": Object {
+              "rendered": "title",
+            },
+          }
+        }
+      />
+    </div>
+    <PostItemPubDate
+      post={
+        Object {
+          "breadcrumbs": Array [
+            Object {
+              "name": "News",
+            },
+          ],
+          "id": 1,
+          "link": "https://inews-article.com/test-article",
+          "title": Object {
+            "rendered": "title",
+          },
+        }
+      }
+      showPubDate={false}
+    />
+  </div>
+</div>
+`;

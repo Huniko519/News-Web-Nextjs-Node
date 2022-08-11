@@ -1,0 +1,123 @@
+@import '../partials/_colors';
+@import '../partials/_dimensions';
+
+.inews__footer {
+  color: $white;
+  font-size: 0.8rem;
+  background: $red;
+
+  .inews__footer__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem;
+    @media (--tablet-and-up) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__menus {
+    margin: 0;
+    padding: 2rem 0;
+    background: $white;
+    border-top: 2px solid $grey-1;
+
+    .inews__footer__main {
+      justify-content: space-between;
+      padding: 0 1rem;
+    }
+
+    &__column {
+      flex-basis: calc(50% - 1rem);
+      text-align: left;
+
+      &:last-child {
+        flex-basis: 100%;
+        margin-top: 2rem;
+      }
+
+      @media (--tablet-and-up) {
+        flex-basis: calc((100% - 4rem) / 3);
+        border-right: 1px solid $grey-3;
+
+        &:last-child {
+          flex-basis: calc((100% - 4rem) / 3);
+          margin-top: 0;
+          border-right: 0;
+        }
+      }
+
+      h3 {
+        margin-top: 0;
+        color: $red;
+      }
+
+      li {
+        a {
+          display: block;
+          padding: 0.5rem 0;
+          font-size: 0.8rem;
+          font-family: $serif-headline;
+        }
+      }
+
+      &__social-link {
+        display: inline-block;
+        margin: 0 1rem 0 0;
+
+        svg {
+          background-color: $red;
+          border-radius: 3px;
+          fill: $white;
+        }
+
+        .instagram-icon {
+          background-color: $white;
+          fill: $red;
+        }
+
+        &:hover {
+          opacity: 0.75;
+        }
+      }
+    }
+  }
+
+  &__meta {
+    flex-basis: 100%;
+  }
+
+  &__copyright {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      flex-basis: auto;
+      margin-bottom: 0.8rem;
+      margin-bottom: 0;
+      border-right: 1px solid $white;
+
+      &:last-child {
+        border-right: 0;
+      }
+    }
+
+    a {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      color: $white;
+      font-size: 0.75rem;
+    }
+  }
+}

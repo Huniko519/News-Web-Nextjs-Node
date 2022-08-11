@@ -1,0 +1,49 @@
+.inews__post-portrait {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--inews-color-primary, #{$red});
+
+  &.opinion {
+    .inews__post-portrait__media {
+      filter: none;
+    
+      &_mobile {
+        display: block;
+
+        @media (--tablet-and-up) {
+          display: none;
+        }
+      }
+
+      &_default {
+        display: none;
+
+        @media (--tablet-and-up) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  @media (--tablet-and-up) {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__media {
+    position: relative;
+    display: block;
+  }
+
+  .inews__post-portrait__author {
+    align-self: center;
+    color: $white;
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-family: $serif-headline;
+    line-height: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+  }
+}

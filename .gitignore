@@ -1,0 +1,12 @@
+.env
+.env.local
+.next
+.idea
+coverage
+node_modules
+bower_components
+public/dev
+.DS_Store
+.eslintcache
+package-lock.json
+newrelic_agent.log

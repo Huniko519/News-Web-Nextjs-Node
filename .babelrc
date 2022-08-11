@@ -1,0 +1,18 @@
+
+{
+    "presets": [
+      [
+        "next/babel",
+        {
+          "preset-env": {},
+          "preset-react": {},
+          "transform-runtime": {},
+          "styled-jsx": {},
+          "object-rest-spread": {},
+          "class-properties": {}
+        }
+      ]
+    ],
+    "plugins": []
+  }
+  

@@ -1,0 +1,138 @@
+.skyline {
+  @-moz-document url-prefix('') {
+    margin-bottom: 1.5rem;
+  }
+  @supports (-webkit-touch-callout: none) {
+    margin-bottom: 1rem;
+  }
+  @media (--desktop-and-up) {
+    margin-bottom: 1.5rem;
+  }
+
+  &:first-child {
+    display: none;
+    @media (--desktop-and-up) {
+      display: block;
+    }
+  }
+
+  &:not(:first-child) {
+    display: block;
+    @media (--desktop-and-up) {
+      display: none;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    height: 140px;
+    margin: 0;
+    padding-right: 4rem;
+    padding-left: 0;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent; /* thumb and track color */
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: transparent;
+      border: 0;
+    }
+
+    @media (--desktop-and-up) {
+      height: 108px;
+      margin-right: 1rem;
+      padding: 0;
+      overflow: visible;
+    }
+
+    * {
+      -ms-overflow-style: none;
+    }
+  }
+
+  &__slide {
+    flex: 0 0 100%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding: 0.625rem 6.5rem 0.75rem 0.625rem;
+    font-family: $serif-headline;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    counter-increment: item;
+    scroll-snap-align: start;
+
+    &:last-child {
+      margin-right: 0;
+      scroll-snap-align: end;
+    }
+
+    @media (pointer: none), (pointer: coarse) {
+      background-size: contain;
+    }
+
+    @media (--small-and-below) {
+      height: 110px;
+      margin-bottom: 0;
+      padding: 0.75rem;
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+
+    &:hover {
+      opacity: 0.75;
+    }
+
+    @media (--tablet-and-up) {
+      flex: 0 0 50%;
+      flex-basis: 50%;
+
+      &:nth-child(2),
+      &:nth-child(3) {
+        scroll-snap-align: end;
+      }
+    }
+
+    @media (--desktop-and-up) {
+      flex-basis: 33.3%;
+    }
+
+    p {
+      margin: 0;
+      color: $white;
+      font-size: 1rem;
+      line-height: 1.125rem;
+    }
+
+    h3 {
+      margin: 0 0 5px;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      text-transform: uppercase;
+    }
+  }
+
+  ol,
+  li {
+    list-style: none;
+  }
+
+  li {
+    width: 75%;
+    @media (--tablet-and-up) {
+      width: 100%;
+    }
+  }
+}

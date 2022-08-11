@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the snapshot 1`] = `
+<Fragment>
+  <div
+    className="inews__post-share"
+  >
+    <amp-social-share
+      aria-label="share via email"
+      data-param-body="https://inews-article.com/test-article?ito=email_track"
+      data-param-subject="Social ' Title"
+      data-track="email_track"
+      height={28}
+      type="email"
+      width={28}
+    />
+    <amp-social-share
+      aria-label="share via twitter"
+      data-param-text="Social ' Title"
+      data-param-url="https://inews-article.com/test-article?ito=twitter_track"
+      data-track="twitter_track"
+      height={28}
+      type="twitter"
+      width={28}
+    />
+    <amp-social-share
+      aria-label="share via whatsapp"
+      data-param-text="Social ' Title - https://inews-article.com/test-article?ito=whatsapp_track"
+      data-track="whatsapp_track"
+      height={28}
+      type="whatsapp"
+      width={28}
+    />
+    <amp-social-share
+      aria-label="share via facebook"
+      data-param-app_id="817222585498956"
+      data-param-href="https://inews-article.com/test-article?ito=facebook_track"
+      data-param-quote="Social ' Title"
+      data-track="facebook_track"
+      height={28}
+      type="facebook"
+      width={28}
+    />
+  </div>
+</Fragment>
+`;

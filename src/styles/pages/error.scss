@@ -1,0 +1,20 @@
+@import '../partials/_colors';
+
+.inews__main__primary {
+  padding: 1rem;
+  background-color: $white;
+
+  a {
+    color: $red;
+  }
+
+  article {
+    > h1:first-of-type {
+      margin-top: 0;
+    }
+
+    > p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

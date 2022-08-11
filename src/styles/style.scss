@@ -1,0 +1,198 @@
+/**
+This file is loaded on EVERY page.
+There will be an additional file per page, e.g. post routes will also get the pages/post.scss
+**/
+@import '../../node_modules/normalize.css/normalize.css';
+@import '../../node_modules/flexboxgrid/dist/flexboxgrid.min.css';
+@import 'partials/_dimensions';
+@import 'partials/_media_queries';
+@import 'partials/_helpers';
+@import 'partials/_colors';
+@import 'partials/_fonts';
+@import 'partials/_header';
+@import 'partials/_hamburger-menu';
+@import 'partials/_header-sub-menu';
+@import 'partials/_email-signup';
+@import 'partials/_footer';
+@import 'partials/_back-to-top';
+@import 'partials/_ads';
+@import 'partials//author-slider';
+@import 'partials/slider';
+
+body {
+  width: 100%;
+  min-width: 320px;
+  padding-top: 60px;
+  font-family: $sans;
+  background-color: $grey-1;
+
+  > .row:not(.inews__main),
+  > .row:not(.inews__footer__main) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  @media (--tablet-and-up) {
+    padding-top: $sticky-header-height-tablet;
+  }
+
+  @media (--desktop-and-up) {
+    padding-top: $sticky-header-height-desktop;
+  }
+
+  &:not(.is-home) {
+    //(50px + 1rem)) - height + top/bottom padding of sticky leaderboard ad
+    padding-top: calc(#{$sticky-header-height-desktop} + (50px + 1rem));
+
+    @media (--tablet-and-up) {
+      padding-top: $sticky-header-height-tablet;
+    }
+
+    @media (--desktop-and-up) {
+      padding-top: $sticky-header-height-desktop;
+    }
+  }
+  &.is-category {
+    padding-top: calc(
+      #{$sticky-archive-title-height}+ #{$sticky-archive-title-height} +#{$sticky-header-height-mobile} +
+        1.5rem
+    );
+    @media (--tablet-and-up) {
+      padding-top: calc(
+        #{$sticky-archive-title-height}+#{$sticky-archive-title-height}+#{$sticky-header-height-tablet}+
+          1.5rem
+      );
+    }
+    @media (--desktop-and-up) {
+      padding-top: calc(
+        #{$sticky-archive-title-height}+#{$sticky-archive-title-height}+#{$sticky-header-height-desktop}+1.5rem
+      );
+    }
+  }
+  &.is-author,
+  &.is-category-parent,
+  &.is-category-slug-politics,
+  &.is-category-slug-money,
+  &.is-category-slug-long-reads {
+    padding-top: calc(
+      #{$sticky-archive-title-height}+#{$sticky-archive-title-height}+#{$sticky-header-height-mobile} +
+        1.5rem
+    );
+
+    @media (--tablet-and-up) {
+      padding-top: calc(
+        #{$sticky-archive-title-height}+#{$sticky-archive-title-height}+#{$sticky-header-height-tablet}+
+          1.5rem
+      );
+    }
+
+    @media (--desktop-and-up) {
+      padding-top: calc(
+        #{$sticky-archive-title-height}+#{$sticky-header-height-desktop}+1.5rem
+      );
+    }
+
+    & .inews__main {
+      margin: 0 auto;
+    }
+  }
+}
+
+::selection {
+  color: $white;
+  background: $red;
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $serif-headline;
+}
+
+p {
+  line-height: 1.6rem;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+mark {
+  background-color: transparent;
+}
+
+.inews__main,
+.inews__footer__main {
+  box-sizing: border-box;
+  max-width: $main-content-width-desktop;
+  margin: 1rem auto;
+  @media (--tablet-and-up) {
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+}
+
+.inews__main__primary {
+  background-color: $white;
+}
+
+#piano-inline-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 300049;
+  width: 100%;
+}
+
+.icon_qoute {
+  // display: inline-block;
+  float: left;
+
+  &.small {
+    height: 1.875rem; // 30px
+    margin-right: 0.3rem;
+
+    svg {
+      width: 2.5rem;
+      height: 2.25rem;
+    }
+  }
+
+  &.medium {
+    height: 4rem;
+    margin-right: 0.5rem;
+
+    @media (--mobile-only) {
+      height: 2.7rem;
+    }
+
+    svg {
+      width: 4.5rem;
+      height: 4.1rem;
+      @media (--mobile-only) {
+        width: 3.625rem;
+        height: 3.125rem;
+      }
+    }
+  }
+
+  svg {
+    fill: var(--inews-color-tertiary);
+  }
+}

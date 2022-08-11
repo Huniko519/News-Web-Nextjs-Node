@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the snapshot 1`] = `
+<div
+  className=""
+>
+  <a
+    href="https://inews-article.com/test-article"
+  >
+    <div
+      className="__default"
+    >
+      <amp-img
+        alt="Article thumbnail"
+        height={84}
+        layout="fixed"
+        src="featured-image.jpg"
+        width={84}
+      />
+    </div>
+  </a>
+</div>
+`;

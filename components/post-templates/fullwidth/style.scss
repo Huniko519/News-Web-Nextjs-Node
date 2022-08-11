@@ -1,0 +1,12 @@
+.is-post-template-full-width {
+  .inews_main__primary {
+    &--fullwidth {
+      flex: 0 0 auto;
+      flex-basis: 100%;
+      box-sizing: border-box;
+      max-width: 100%;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+  }
+}

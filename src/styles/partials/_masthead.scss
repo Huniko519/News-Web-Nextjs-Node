@@ -1,0 +1,89 @@
+.inews__masthead {
+  position: fixed;
+  top: 120px;
+  z-index: 10;
+  display: none;
+  box-sizing: border-box;
+  width: 220px;
+  padding: 1rem 0;
+  text-align: center;
+  background: $white;
+  border: 1px solid $grey-2;
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 0;
+    left: -21px;
+    width: 20px;
+    height: 100%;
+    background: $white;
+    content: ' ';
+  }
+
+  &::after {
+    left: calc(100% + 1px);
+  }
+
+  @media (--desktopXL-only) {
+    left: calc((100vw - (#{$main-content-width-desktop-xl})) / 2);
+    display: block;
+  }
+}
+
+.inews__masthead__date,
+.inews__masthead__next-edition {
+  margin: 0;
+}
+
+.inews__masthead__current-edition {
+  margin: 0;
+  font-weight: 700;
+}
+// Hiding Next and current edition. Please see:
+// https://anm508a.atlassian.net/browse/INEWS-774
+.inews__masthead__next-edition,
+.inews__masthead__current-edition {
+  display: none;
+}
+
+.inews__masthead__logo {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0;
+
+  svg {
+    display: block;
+    width: auto;
+    height: 300px;
+    margin-left: 8px;
+  }
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  font-family: $sans;
+}
+
+.inews__masthead__contact {
+  margin-bottom: 0;
+  font-family: $serif-headline;
+}
+
+.inews__masthead__contact__icon {
+  color: $red;
+}
+
+.inews__masthead__newsletter {
+  margin-top: 0;
+  font-family: $serif-headline;
+}
+
+.inews__masthead__newsletter__icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.2rem;
+  vertical-align: text-top;
+}

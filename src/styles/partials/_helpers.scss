@@ -1,0 +1,11 @@
+.is-flex {
+  display: flex;
+}
+
+@mixin clearfix {
+  &::after {
+    display: table;
+    clear: both;
+    content: '';
+  }
+}

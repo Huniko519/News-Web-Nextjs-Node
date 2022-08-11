@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-rational-order"
+  ],
+  "rules": {
+    "selector-class-pattern": "^[a-z0-9]+(?:(?:-{1,2}|_{1,2})[a-z0-9]+)*$",
+    "max-nesting-depth": 4,
+    "selector-max-compound-selectors": 4,
+    "selector-max-id": 1,
+    "order/properties-alphabetical-order": null,
+    "scss/at-import-no-partial-leading-underscore": null,
+    "inews/no-amp-selectors": true,
+    "declaration-no-important": true,
+    "function-url-scheme-disallowed-list": "data"
+  },
+  "plugins": [
+    "./utils/stylelint/no-amp-selectors.js"
+  ],
+  "ignoreFiles": ["!**/*.scss"]
+}

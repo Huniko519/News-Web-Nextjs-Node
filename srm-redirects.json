@@ -1,0 +1,586 @@
+[
+  {
+    "ID": 459629,
+    "post_status": "publish",
+    "redirect_from": "\/test1",
+    "redirect_to": "\/test3",
+    "status_code": 302,
+    "enable_regex": false
+  },
+  {
+    "ID": 577491,
+    "post_status": "publish",
+    "redirect_from": "\/sport\/football\/world-cup\/spain-manager-lopetegui-sacked-world-cup-real-madrid-282672",
+    "redirect_to": "https:\/\/inews.co.uk\/sport\/football\/world-cup\/spain-manager-lopetegui-sacked-world-cup-real-madrid-164777",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 581747,
+    "post_status": "publish",
+    "redirect_from": "\/calculator",
+    "redirect_to": "https:\/\/inews.co.uk\/calculate-how-much-tax-free-cash-you-could-release",
+    "status_code": 302,
+    "enable_regex": false
+  },
+  {
+    "ID": 583904,
+    "post_status": "publish",
+    "redirect_from": "\/news\/education\/gcse-grades-explained-results-day-2019-equivalent-grades-marking-system-178451",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/education\/gcse-grades-explained-2020-numerical-results-1-9-letter-equivalent-new-pass-fail-583108",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 583905,
+    "post_status": "publish",
+    "redirect_from": "\/news\/education\/new-gcse-grades-explained-old-equivalents-1-9-grading-how-work-189607",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/education\/gcse-grades-explained-2020-numerical-results-1-9-letter-equivalent-new-pass-fail-583108",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 583906,
+    "post_status": "publish",
+    "redirect_from": "\/news\/education\/gcse-results-day-2019-failed-english-maths-resit-178640",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/education\/gcse-results-2020-fail-maths-english-what-to-do-happens-grades-explained-583022",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 583907,
+    "post_status": "publish",
+    "redirect_from": "\/news\/education\/gcse-grades-calculated-how-this-year-results-explained-numberical-grading-577759",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/education\/gcse-grades-2020-how-calculated-results-day-thursday-algorithm-ofqual-u-turn-final-581598",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 583915,
+    "post_status": "publish",
+    "redirect_from": "\/news\/education\/new-gcse-grades-explained-old-equivalents-1-9-grading-how-work-189607",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/education\/gcse-grades-explained-2020-numerical-results-1-9-letter-equivalent-new-pass-fail-583108",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 583930,
+    "post_status": "publish",
+    "redirect_from": "\/unlock",
+    "redirect_to": "https:\/\/inews.co.uk\/request-your-free-guide-to-equity-release",
+    "status_code": 302,
+    "enable_regex": false
+  },
+  {
+    "ID": 612178,
+    "post_status": "publish",
+    "redirect_from": "\/sport\/cycling\/tour-de-france-2019-jerseys-meaning-yellow-green-polka-dot-white-explained-maillot-jaune-centenary-309593",
+    "redirect_to": "https:\/\/inews.co.uk\/sport\/cycling\/tour-de-france-jerseys-explained-meaning-maillot-yellow-green-polka-dot-white-611903",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 613198,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/clocks-go-back-change-2019-uk-when-date-time-bst-british-summer-time-328514",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/clocks-go-back-2020-when-date-change-uk-british-summer-time-612915",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 614112,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/clocks-go-forward-2020-when-change-british-summer-time-start-bst-explained-382561",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/clocks-go-back-2020-when-date-change-uk-british-summer-time-612915",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 624678,
+    "post_status": "publish",
+    "redirect_from": "\/release",
+    "redirect_to": "https:\/\/inews.co.uk\/request-your-free-guide-to-equity-release-2",
+    "status_code": 302,
+    "enable_regex": false
+  },
+  {
+    "ID": 637099,
+    "post_status": "publish",
+    "redirect_from": "\/inews-lifestyle\/food-and-drink\/pizza-express-closures-list-restaurants-closing-near-me-coronavirus-lockdown-582774",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/consumer\/pizza-express-closures-list-restaurants-closing-which-jobs-cva-agreement-635681",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 643579,
+    "post_status": "publish",
+    "redirect_from": "\/culture\/television\/gogglebox-cast-families-2019-new-series-channel-4-how-apply-194662",
+    "redirect_to": "https:\/\/inews.co.uk\/culture\/television\/gogglebox-2020-cast-families-list-new-series-channel-4-when-time-tonight-642776",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 643581,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/when-is-the-next-quarantine-review-portugal-and-greece-could-lose-air-bridges-when-travel-corridor-countries-are-re-assessed-621358",
+    "redirect_to": "https:\/\/inews.co.uk\/inews-lifestyle\/travel\/quarantine-review-when-next-date-uk-travel-rules-changed-countries-list-portugal-air-bridge-642872",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 655544,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-speech-today-announcement-pm-watch-live-downing-street-548062",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/politics\/boris-johnson-speech-today-announcement-time-next-update-live-time-coronavirus-watch-tonight-curfew-654740",
+    "status_code": 302,
+    "enable_regex": false
+  },
+  {
+    "ID": 655546,
+    "post_status": "publish",
+    "redirect_from": "\/news\/health\/boris-johnson-speech-today-when-time-announcement-watch-live-stream-new-lockdown-rules-640813",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/politics\/boris-johnson-speech-today-announcement-time-next-update-live-time-coronavirus-watch-tonight-curfew-654740",
+    "status_code": 302,
+    "enable_regex": false
+  },
+  {
+    "ID": 656865,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/winter-2019-when-start-date-first-day-uk-solstice-day-traditions-pagan-346206",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/winter-2020-when-start-date-uk-solstice-shortest-day-656752",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 671092,
+    "post_status": "publish",
+    "redirect_from": "\/news\/politics\/boris-johnson-speech-today-announcement-time-next-update-live-time-coronavirus-watch-tonight-address-nation-654740",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/politics\/boris-johnson-announcement-time-today-press-conference-when-speech-watch-live-669083",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 671742,
+    "post_status": "publish",
+    "redirect_from": "\/category\/sport\/football\/fantasy-football",
+    "redirect_to": "\/category\/sport\/fantasy-football",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 731477,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-announcement-today-what-time-speech-watch-live-3-tier-lockdown-system-712222",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/politics\/boris-johnson-announcement-today-time-manchester-tier-3-covid-restrictions-speech-update-latest-731278",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 733964,
+    "post_status": "publish",
+    "redirect_from": "\/us-election-2020\/presidential-debate-uk-how-watch-start-time-tonight-live-stream-tv-coverage-first-trump-vs-biden-666907",
+    "redirect_to": "https:\/\/inews.co.uk\/us-election-2020\/presidential-debate-how-watch-uk-tonight-live-stream-start-time-tv-channel-final-trump-vs-biden-733462",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 734472,
+    "post_status": "publish",
+    "redirect_from": "\/news\/politics\/boris-johnson-announcement-today-time-manchester-tier-3-covid-restrictions-speech-update-latest-731278",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/politics\/boris-johnson-speech-today-announcement-time-covid-press-conference-watch-live-rishi-sunak-733878",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 742752,
+    "post_status": "publish",
+    "redirect_from": "\/topic\/us-election-2020",
+    "redirect_to": "https:\/\/inews.co.uk\/category\/us-election-2020",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 745223,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-announcement-today-time-lockdown-speech-new-covid-restrictions-watch-live-744080",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/politics\/boris-johnson-announcement-today-time-when-pm-lockdown-speech-how-watch-live-744946",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 749218,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/bonfire-night-2019-when-date-fireworks-displays-guy-fawkes-gunpowder-plot-356075",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/bonfire-night-2020-when-date-guy-fawkes-gunpowder-plot-fireworks-covid-lockdown-rules-748448",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 756081,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/remembrance-day-silence-2020-time-when-two-minute-sunday-watch-service-tv-live-751342",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/armistice-day-silence-2020-time-remembrance-uk-11-november-1918-what-happened-ww1-755502",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 761295,
+    "post_status": "publish",
+    "redirect_from": "\/news\/politics\/matt-hancock-statement-today-time-covid-announcement-live-watch-manchester-tier-3-restrictions-731841",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/health\/matt-hancock-briefing-today-time-covid-press-conference-when-boris-johnson-self-isolating-760841",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 768820,
+    "post_status": "publish",
+    "redirect_from": "\/news\/politics\/boris-johnson-announcement-speech-today-time-when-pm-lockdown-how-watch-live-744946",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/politics\/boris-johnson-announcement-today-time-speech-update-covid-tier-restrictions-lockdown-768627",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 768853,
+    "post_status": "publish",
+    "redirect_from": "\/news\/politics\/boris-johnson-announcement-today-time-speech-press-conference-lockdown-when-watch-live-750157",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/politics\/boris-johnson-announcement-today-time-speech-update-covid-tier-restrictions-lockdown-768627",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 769007,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/tier-what-am-i-area-covid-postcode-checker-areas-full-list-lockdown-restrictions-tiers-explained-713310",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/tier-what-am-i-in-list-areas-covid-rules-announcement-restrictions-how-many-cases-768694",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 773092,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/postcode-checker-covid-what-tier-areas-map-tiers-explained-713947",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/covid-tier-postcode-checker-how-check-my-area-england-rules-restrictions-map-cases-772920",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 778423,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/covid-tier-map-areas-tiers-restrictions-postcode-checker-england-lockdown-explained-715198",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/covid-tier-map-areas-tiers-england-new-restrictions-postcode-checker-my-area-773074",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 813303,
+    "post_status": "publish",
+    "redirect_from": "\/culture\/auld-lang-syne-lyrics-meaning-words-robert-burns-new-years-eve-song-240884",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/auld-lang-syne-lyrics-words-meaning-song-new-years-eve-robert-burns-813249",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 813766,
+    "post_status": "publish",
+    "redirect_from": "\/news\/consumer\/supermarket-opening-times-hours-christmas-2020-tesco-asda-aldil-lidl-morrisons-sainsburys-boxing-day-791366",
+    "redirect_to": "https:\/\/inews.co.uk\/inews-lifestyle\/food-and-drink\/new-year-supermarket-opening-times-2020-tesco-asda-lidl-aldi-sainsburys-hours-eve-day-811102",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 813767,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/spring-season-2020-uk-equinox-start-date-when-380791",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/spring-2021-when-start-date-uk-vernal-equinox-covid-explained-813236",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 814343,
+    "post_status": "publish",
+    "redirect_from": "\/culture\/television\/jools-holland-hootenanny-live-when-where-filmed-new-year-2020-line-up-380129",
+    "redirect_to": "https:\/\/inews.co.uk\/culture\/television\/jools-holland-hootenanny-live-pre-recorded-when-filmed-2020-line-up-tonight-814046",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 814423,
+    "post_status": "publish",
+    "redirect_from": "\/inews-lifestyle\/money\/1p-challenge-savings-penny-day-chart-monzo-skint-dad-uk-380296",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/consumer\/1p-challenge-saving-2021-explained-every-day-save-end-of-year-813893",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 821187,
+    "post_status": "publish",
+    "redirect_from": "\/culture\/death-in-paradise-where-filmed-guadeloupe-filming-locations-bbc-series-244757",
+    "redirect_to": "https:\/\/inews.co.uk\/culture\/television\/death-in-paradise-where-filmed-filming-locations-guadeloupe-season-10-how-made-covid-820197",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 830026,
+    "post_status": "publish",
+    "redirect_from": "\/culture\/television\/dancing-on-ice-2021-contestants-line-up-full-itv-new-series-cast-when-start-date-657848",
+    "redirect_to": "https:\/\/inews.co.uk\/culture\/television\/dancing-on-ice-2021-who-line-up-contestants-full-when-new-series-itv-start-date-time-828376",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 831568,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-announcement-today-time-when-covid-update-press-conference-watch-live-speech-820260",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/boris-johnson-announcement-today-time-when-covid-speech-update-press-conference-watch-live-831393",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 833956,
+    "post_status": "publish",
+    "redirect_from": "\/news\/science\/blue-monday-today-most-depressing-day-year-why-myth-explained-243350",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/health\/blue-monday-what-meaning-january-today-why-formula-explained-833871",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 840077,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/burns-night-2020-when-date-supper-poet-robert-burns-haggis-whisky-389471",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/burns-night-2021-when-date-robert-burns-celebrations-supper-traditions-recipes-839751",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 841049,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-announcement-today-time-when-covid-update-watch-live-national-lockdown-start-817585",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/boris-johnson-announcement-today-time-watch-covid-press-conference-live-stream-update-speech-845332",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 841195,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-announcement-today-time-when-covid-speech-update-press-conference-watch-live-831393",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/boris-johnson-announcement-today-time-watch-covid-press-conference-live-stream-update-speech-845332",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 843685,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/dydd-santes-dwynwen-2020-when-date-wales-valentines-day-saint-story-389525",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/dydd-santes-dwynwen-2021-welsh-valentines-day-today-what-meaning-explained-843500",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 845518,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-announcement-today-time-when-press-conference-covid-updates-watch-live-stream-840765",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/boris-johnson-announcement-today-time-watch-covid-press-conference-live-stream-update-speech-845332",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 846699,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-announcement-today-time-watch-covid-press-conference-live-stream-update-speech-845332",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/boris-johnson-announcement-today-time-when-watch-covid-update-press-conference-live-schools-quarantine-846576",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 853074,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/start-getting-lighter-when-clocks-go-forward-2020-change-spring-uk-date-380914",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/start-getting-lighter-when-start-morning-clocks-change-spring-date-sunrise-sunset-time-828479",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 856241,
+    "post_status": "publish",
+    "redirect_from": "\/news\/politics\/pmqs-today-time-boris-johnson-keir-starmer-prime-ministers-questions-when-watch-live-uk-covid-deaths-846103",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/politics\/what-time-is-pmqs-today-when-to-watch-boris-johnson-face-keir-starmer-at-prime-ministers-questions-live-856036",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 856844,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-announcement-today-time-when-watch-covid-update-press-conference-live-schools-quarantine-846576",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/boris-johnson-announcement-today-time-when-covid-update-press-conference-watch-live-stream-856470",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 858199,
+    "post_status": "publish",
+    "redirect_from": "\/ultimatepack",
+    "redirect_to": "https:\/\/creative.dailymail.co.uk\/inews\/2021\/ultimatepack\/index.html",
+    "status_code": 302,
+    "enable_regex": false
+  },
+  {
+    "ID": 866136,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/cladding-scandal-explained-crisis-grenfell-tower-fire-campaign-labour-keir-starmer-debate-852865",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/cladding-scandal-grenfell-tower-fire-crisis-uk-homeowner-announcement-today-meaning-explained-865957",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 866215,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/boris-johnson-announcement-today-time-when-covid-update-press-conference-watch-live-stream-856470",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/boris-johnson-announcement-today-when-next-covid-update-speech-watch-live-wednesday-866114",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 875864,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/ash-wednesday-what-meaning-lent-first-day-shrove-tuesday-when-2020-date-401388",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/ash-wednesday-2021-meaning-what-lent-start-fasting-explained-when-date-875575",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 877216,
+    "post_status": "publish",
+    "redirect_from": "\/sport\/fantasy-football",
+    "redirect_to": "https:\/\/inews.co.uk\/category\/sport\/fantasy-football",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 879343,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/wales-lockdown-end-when-date-how-long-covid-restrictions-new-rules-review-announcement-850267",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/wales-lockdown-end-when-welsh-covid-restrictions-how-long-rules-review-update-announcement-879155",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 879483,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/covid-cases-my-area-map-near-me-today-england-coronavirus-rate-new-variant-latest-866655",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/covid-cases-my-area-how-many-england-map-coronavirus-rate-lockdown-roadmap-announcement-877650",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 882448,
+    "post_status": "publish",
+    "redirect_from": "\/topic\/coronavirus-covid-19",
+    "redirect_to": "https:\/\/inews.co.uk\/topic\/covid-19",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 887348,
+    "post_status": "publish",
+    "redirect_from": "\/news\/education\/gavin-williamson-annoucement-today-time-when-lockdown-update-schools-exams-watch-live-818578",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/education\/gavin-williamson-announcement-today-time-when-gcse-a-level-exams-covid-update-watch-887151",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 890311,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/st-davids-day-2020-welsh-how-say-happy-saint-david-when-date-403214",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/st-davids-day-2021-when-date-who-saint-say-happy-saint-david-day-welsh-889915",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 890841,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/mothers-day-2020-when-date-mothering-sunday-uk-tradition-origins-397940",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/mothers-day-2021-when-date-uk-mothering-sunday-celebrations-history-countries-us-880933",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 892645,
+    "post_status": "publish",
+    "redirect_from": "\/news\/health\/matt-hancock-announcement-today-time-when-covid-vaccine-update-watch-live-vaccination-schedule-889116",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/matt-hancock-announcement-today-time-when-watch-covid-press-conference-update-live-892311",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 900586,
+    "post_status": "publish",
+    "redirect_from": "\/nominate",
+    "redirect_to": "https:\/\/dellardavies.eventsair.com\/itravel-staycation-awards-2021\/itravel\/Site\/Register",
+    "status_code": 302,
+    "enable_regex": false
+  },
+  {
+    "ID": 904809,
+    "post_status": "publish",
+    "redirect_from": "\/news\/scotland\/nicola-sturgeon-announcement-today-update-time-scotland-lockdown-roadmap-watch-live-894085",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/scotland\/nicola-sturgeon-announcement-today-time-when-watch-scotland-lockdown-review-live-904658",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 906045,
+    "post_status": "publish",
+    "redirect_from": "\/sport\/football\/away-goals-champions-league-count-new-ucl-rules-extra-time-penalties-quarter-finals-one-leg-explained-399201",
+    "redirect_to": "https:\/\/inews.co.uk\/sport\/football\/away-goals-champions-league-rule-how-do-count-explained-neutral-venues-extra-time-penalties-874557",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 907711,
+    "post_status": "publish",
+    "redirect_from": "\/culture\/television\/celebrity-circle-cast-2021-line-up-new-series-full-contestants-channel-4-start-time-tonight-885536",
+    "redirect_to": "https:\/\/inews.co.uk\/culture\/television\/celebrity-circle-cast-2021-line-up-new-series-full-contestants-channel-4-time-tonight-885536",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 909395,
+    "post_status": "publish",
+    "redirect_from": "\/fitbitsense",
+    "redirect_to": "https:\/\/xd.wayin.com\/display\/container\/dc\/2d41bda1-b450-42b3-ab18-c04a4b06bd8b\/details",
+    "status_code": 302,
+    "enable_regex": false
+  },
+  {
+    "ID": 909457,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/mothers-day-2021-when-date-uk-mothering-sunday-countries-celebrations-880933",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/mothers-day-2021-uk-when-date-mothering-sunday-us-countries-909160",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 915166,
+    "post_status": "publish",
+    "redirect_from": "\/light-relief\/offbeat\/st-patricks-day-2020-when-date-ireland-patron-saint-coronavirus-parades-events-cancelled-406966",
+    "redirect_to": "https:\/\/inews.co.uk\/light-relief\/offbeat\/st-patricks-day-2021-when-date-who-ireland-patron-saint-what-did-celebrations-915074",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 916120,
+    "post_status": "publish",
+    "redirect_from": "\/news\/scotland\/nicola-sturgeon-announcement-today-time-when-watch-scotland-lockdown-review-live-904658",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/scotland\/nicola-sturgeon-announcement-time-when-today-scotland-lockdown-roadmap-update-watch-live-915968",
+    "status_code": 301,
+    "enable_regex": false
+  },
+  {
+    "ID": 918267,
+    "post_status": "publish",
+    "redirect_from": "\/news\/uk\/matt-hancock-announcement-today-time-when-watch-covid-press-conference-update-live-892311",
+    "redirect_to": "https:\/\/inews.co.uk\/news\/uk\/matt-hancock-announcement-today-time-when-covid-update-watch-live-stream-917927",
+    "status_code": 301,
+    "enable_regex": false
+  }
+]

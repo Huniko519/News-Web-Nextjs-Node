@@ -1,0 +1,215 @@
+@import '../../../src/styles/partials/colors';
+@import '../../../src/styles/partials/fonts';
+
+.top-app-wrapper,
+.body-wrapper {
+  h2 {
+    color: $grey-4;
+    font-size: 1.2rem;
+    font-family: $serif-headline;
+    text-align: left;
+  }
+
+  p {
+    margin: 20px 0 40px;
+    color: $grey-4;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .brand {
+    color: $red;
+  }
+}
+
+.top-app-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px 0;
+
+  > div {
+    width: 100%;
+    max-width: 50%;
+  }
+
+  .image-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+  }
+
+  .image-left {
+    display: block;
+    width: 100%;
+    max-width: 50%;
+
+    &.first-img {
+      width: 143px;
+      height: 382px;
+      padding-top: 45px;
+      padding-right: 10px;
+    }
+
+    &.second-img {
+      width: 161px;
+      height: 430px;
+      padding-left: 10px;
+    }
+  }
+
+  h1 {
+    margin-top: 70px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .store-btn {
+      width: 100%;
+      max-width: 40%;
+      margin-right: 20px;
+      margin-bottom: 20px;
+
+      amp-img {
+        width: 100%;
+        max-width: 169px;
+        height: auto;
+        border-radius: 12px;
+      }
+    }
+  }
+}
+
+.body-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 50px;
+
+  .app-item {
+    width: 45%;
+    margin-top: 80px;
+  }
+
+  .app-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 96px;
+    margin-bottom: 20px;
+    color: $white;
+    text-align: center;
+    background: $red;
+    border-radius: 50%;
+
+    .three-x {
+      font-weight: bold;
+      font-size: 47px;
+      line-height: 38px;
+    }
+
+    span {
+      font-size: 9px;
+    }
+
+    svg {
+      color: $white;
+      text-align: center;
+    }
+  }
+}
+
+.inews-button {
+  bottom: 10px;
+  display: block;
+  width: 150px;
+  margin: 20px auto;
+  padding: 15px 25px 13px;
+  color: $white;
+  font-family: $serif-headline;
+  text-align: center;
+  text-decoration: none;
+  background-color: $red;
+  border: solid thin $red;
+
+  &:hover {
+    color: $red;
+    background-color: $grey-6;
+  }
+}
+
+@media (--tablet-and-below) {
+  .top-app-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+
+    .image-wrap {
+      margin-right: 20px;
+    }
+  }
+}
+
+@media (--mobile-and-below) {
+  .top-app-wrapper {
+    flex-direction: column-reverse;
+    margin: 0 20px;
+
+    > div {
+      max-width: 100%;
+    }
+
+    h1 {
+      margin-top: 10px;
+    }
+
+    .image-wrap {
+      margin: 30px auto;
+
+      .first-img {
+        width: 161px;
+        height: 430px;
+        padding-top: 0;
+      }
+    }
+
+    .button-wrapper {
+      display: block;
+
+      .store-btn {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto 20px;
+
+        amp-img {
+          max-width: 200px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  .body-wrapper {
+    flex-direction: column;
+
+    .app-item {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .app-circle {
+      margin: 0 auto;
+    }
+
+    h2,
+    p {
+      text-align: center;
+    }
+  }
+}

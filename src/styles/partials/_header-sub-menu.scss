@@ -1,0 +1,116 @@
+@import './_colors';
+@import './_dimensions';
+@import './_media_queries';
+
+.inews__sub__header_menu {
+  position: relative;
+  z-index: 999;
+  box-sizing: border-box;
+  width: 100vw;
+  padding-left: 1rem;
+  overflow: hidden;
+  color: var(--inews-color-primary);
+  font-weight: 700;
+  font-size: 0.875rem;
+  font-family: $sans;
+  line-height: 1.125rem;
+  background-color: $white;
+  box-shadow: 0 1px 3px $grey-8;
+
+  @media (--desktop-and-up) {
+    height: $sticky-archive-title-height;
+  }
+
+  @media (--tablet-and-below) {
+    &.collapsed {
+      max-height: 2.9rem;
+      padding-right: 2rem;
+
+      .inews__sub__header_menu__expend-mobile {
+        top: 1rem;
+        right: 0.625rem;
+      }
+    }
+
+    &.expended {
+      .inews__sub__header_menu__expend-mobile {
+        right: 0.625rem;
+        bottom: 1rem;
+      }
+    }
+  }
+
+  &__parent-mobile {
+    display: none;
+
+    @media (--tablet-and-below) {
+      display: inline;
+    }
+  }
+
+  &__grand-parent-item {
+    color: var(--inews-color-primary);
+    margin-right: 1rem;
+  }
+
+  &__expend-mobile {
+    display: none;
+
+    a {
+      color: $grey-7;
+    }
+
+    @media (--tablet-and-below) {
+      position: absolute;
+      //display: block;
+    }
+  }
+
+  .inews__header__inner--cat {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    @media (--desktop-and-up) {
+      align-items: center;
+      max-width: $cat-banner-width-desktop;
+    }
+  }
+
+  &__primary-cat {
+    margin: 0 1rem 0 0;
+    padding: 7px 0;
+  }
+
+  &_list {
+    &_item {
+      margin: 0 1rem 0 0;
+      padding: 7px 0;
+      color: $grey-2;
+      font-weight: normal;
+      border-bottom: solid 1px transparent;
+
+      &:hover {
+        color: var(--inews-color-primary);
+      }
+
+      &.active {
+        color: var(--inews-color-primary);
+        @media (--tablet-and-below) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &_mobile_parent_item {
+    display: none;
+    @media (--tablet-and-below) {
+      &.active {
+        display: block;
+      }
+      display: block;
+    }
+  }
+}
